@@ -2654,6 +2654,14 @@ input[type="button"].btn-block {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.glyphicon.glyphicon-chevron-right {
+  font-size: 50px;
+}
+
+.glyphicon.glyphicon-chevron-left {
+  font-size: 50px;
+}
+
 .glyphicon:empty {
   width: 1em;
 }
