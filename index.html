@@ -33,7 +33,8 @@
 		$("#nav-placeholder").load("Navigation2.html", function() {
 		//wait for ajax load n add active class
 			//$(".navbar-default .navbar-nav > .active").find("li:nth-child(1)").addClass("active");
-		$('a[href="' + decodeURIComponent(window.location.pathname.replace(/^\/|\/$/g, '')) + '"]').parent().addClass('active');
+		//$('a[href="' + decodeURIComponent(window.location.pathname.replace(/^\/|\/$/g, '')) + '"]').parent().addClass('active');
+		$('a[href="index"]').parent().addClass('active');
 		});
 	  });      
 	</script>
