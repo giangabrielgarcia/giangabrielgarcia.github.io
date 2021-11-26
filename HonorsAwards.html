@@ -20,15 +20,6 @@
 
 <body>
 	<script>
-    $(document).ready(function () {
-        var url = window.location;
-        $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
-        $('ul.nav a').filter(function() {
-             return this.href == url;
-        }).parent().addClass('active');
-    });
-	
-	
 	var path = window.location.pathname.substring(1);
 	$('.nav>li>a[href="' + path + '"]').parent().addClass('active');
 	</script> 

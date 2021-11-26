@@ -16,98 +16,30 @@
 </head>
 
 <body>
+
+	<script>
+	var path = window.location.pathname.substring(1);
+	$('.nav>li>a[href="' + path + '"]').parent().addClass('active');
+	</script> 
+
+
 <!-- Navigation Bar -->
-	  <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index">Gian-Gabriel Garcia</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="index">Home</a></li>
-              <!-- <li><a href="Education.html">Education</a></li> -->
-              <li class="active"><a href="Research">Research</a></li>
-			  <!-- <li><a href="Teaching.html">Teaching</a></li> -->
-			  <li><a href="HonorsAwards">Honors/Awards</a></li>
-			  <li><a href="Diversity">Diversity</a></li>
-			  <li><a href="CV">Curriculum Vitae</a></li>
-			  </ul>
-          </div><!--/.nav-collapse -->   
-<!-- Jumbotron-->
-<!--    <div class="jumbotron" style="background-image: url(images/UMbanner.png); background-size: cover;">
-      <h1 style="color:white !important" class="text-center">Gian-Gabriel Garcia</h1>
-    </div> -->
+	<div class="container">
+		<div id="nav-placeholder">
+
+		</div>
+
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("Navigation2.html");
+	});
+	</script>
 	
 	
-
-
-
 <!-- Main Body -->
-<!--
-  <div class="container">
-      <div class="col-md-3">
-          <ul id="sidebar" class="nav nav-stacked affix">
-            <li><a href="#Interests" class="btn btn-primary">Research Interests</a></li>
-			<li><a href="#Projects" class="btn btn-primary"> Research Projects </a></li>
-            <li><a href="#Publications" class="btn btn-primary">Publications</a></li>
-            <li><a href="#Presentations" class="btn btn-primary">Presentations</a></li>
-            <li><a href="#Tools" class="btn btn-primary">Tools Developed</a></li>
-        </ul>
-      </div>
-  
--->
+
  <div class="col-md-12">
-	<!-- Carousel -->
-<!--
-<div id="ResearchPics" class="carousel slide" data-ride="carousel"> -->
-  <!-- Indicators -->
-<!--
-  <ol class="carousel-indicators">
-    <li data-target="#ResearchPics" data-slide-to="0" class="active"></li>
-    <li data-target="#ResearchPics" data-slide-to="1"></li>
-	<li data-target="#ResearchPics" data-slide-to="2"></li>
-  </ol>
- -->
- 
-  <!-- Wrapper for slides -->
- <!-- 
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="conferencepics/CHEPS2016_1.jpg" alt="..." height=315>
-      <div class="carousel-caption">
-      	<h3>CHEPS Symposium 2016</h3>
-      </div>
-    </div>
-    <div class="item">
-      <img src="conferencepics/ISERC2016_1.jpg" alt="...">
-      <div class="carousel-caption">
-      	<h3>ISERC 2016</h3>
-      </div>
-    </div>
-	 <div class="item">
-      <img src="conferencepics/INFORMS2016.png" alt="...">
-      <div class="carousel-caption">
-      	<h3>INFORMS 2016</h3>
-      </div>
-    </div>
-  </div>
-  -->
- 
-  <!-- Controls -->
- <!--
-  <a class="left carousel-control" href="#ResearchPics" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#ResearchPics" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>-->
+
 
  <!-- Carousel -->	
 	<section id="Interests" class="group">
@@ -128,15 +60,7 @@
 	
 	<section id="Projects" class="group">
 	<div class="page-header"><h3> Current Research Projects </h3></div>
-	<!--<h4> Optimal Return to Play: Athlete and Physician Perspectives </h4>
-	
-	<h4> Concussion Risk-Prediction Models Using Objective Clinical Measures</h4>
 
-	<h4> Markov Decision Process Models for Optimizing Vaccine Administration </h4>
-
-	<h4> Optimal Inventory Allocation, Storage, and Management for Prosthetics Inventory </h4>
-
-	<h4> Vaccine Modeling Initiative </h4> -->
 	
 	<div class = "container">
 		<div id="carouselResearch" class="carousel slide" data-ride="carousel">
@@ -166,126 +90,7 @@
 	
 	</div>
 	
-	
-	
-	<!--
-	<div class="album py-5 bg-light">
-        <div class="container"> -->
-		<!-- Row 1--> 
-		<!--
-			<div class="row">
-				<div class="col-md-4">
-					<div class = "row">
-						<div class ="col-md-2"> </div>
-						<div class = "col-md-8">
-							<img class="img-responsive center-block" src="images/TBI_scaled.png">
-						</div>
-						<div class ="col-md-2"> </div>
-					</div>
-					<div class="row">
-						<div class = "col-md-1"> </div>
-						<div class = "col-md-10"> 
-					  <p class="text-center"><b>Concussion Management</b></p>
-					  <p class="text-justify small">Concussion, the most common type of traumatic brain injury, is an emergent public health issue. Recent studies suggest links between concussions and long-term consequences such as 
-											cognitive impairment and neurodegenerative disease.
-											By combining predictive modeling and optimization methods, we develop methods to better identify concussion and optimize post-injury management.</p>
-						</div>
-						<div class = "col-md-1"> </div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class = "row">
-						<div class = "col-md-2"> </div>
-						<div class = "col-md-8"> 
-							<img class="img-responsive center-block" src="images/Opioids_scaled.jpg"> 
-							</div>
-						<div class = "col-md-2"> </div>
-					</div>
-					<div class="row">
-						<div class = "col-md-1"> </div>
-						<div class = "col-md-10">
-					  <p class="text-center"><b>Opioid Use Disorder</b></p>
-					  <p class = "text-justify small">In the United States, the prevalence of opioid misuse and opioid use disorder (OUD) have been increasing in the past few years, leading to increased deaths from overdose. 
-												In this research, we aim to develop, characterize, and analyze the impact of social networks among opioid users. Our findings aim to inform public policy
-												and optimize the design of future support networks for people with OUD. </p>
-						</div>
-						<div class = "col-md-1"> </div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class = "row">
-						<div class = "col-md-2"> </div>
-						<div class = "col-md-8">
-							<img class="img-responsive center-block" src="images/PTSD_scaled.jpg"> </div>
-						<div class = "col-md-2"> </div>
-					</div>
-					<div class="row">
-						<div class = "col-md-1"> </div>
-						<div class = "col-md-10"> 
-					  <p class="text-center"><b>Post-traumatic Stress Disorder</b></p>
-					  <p class="text-justify small">Post-traumatic Stress Disorder (PTSD) is a mental health condition which is triggered by a terrifying experience and can include symptoms such as
-							flashbacks, nightmares, and severe anxiety about the experience. People suffering with PTSD may lose their career, family members, or commit suicide. In this research, 
-							we analyze and optimize screening policies for PTSD among vulnerable populations. </p>
-											</div>
-						<div class = "col-md-1"> </div>
-					</div>
-				</div>
-			</div>
-		-->	
-		<!-- Row 2-->
-			<!--div class="row">
-				<div class="col-md-2"> <!-- spacer -->
-				
-				<!--/div>
 
-			
-			
-			
-			
-				<div class="col-md-4">
-					<div class = "row">
-						<div class = "col-md-2"> </div>
-						<div class = "col-md-8"> 
-							<img class="img-responsive center-block" src="images/Glaucoma_scaled.jpg"> 
-							</div>
-						<div class = "col-md-2"> </div>
-					</div>
-					<div class="row">
-						<div class = "col-md-1"> </div>
-						<div class = "col-md-10">
-					  <p class="text-center"><b>Glaucoma Progression</b></p>
-					  <p class = "text-justify small">Glaucoma is an irreversible disease and the leading cause of blindness worldwide. In this research, we
-												aim to improve the detection of Glaucoma progression in different patient populations, such as those with primary open angle Glaucoma
-												and ocular hypertension. Our approach is centered on the use of Kalman filtering models to forecast the future trajectory of Glaucoma disease dynamics.</p>
-						</div>
-						<div class = "col-md-1"> </div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class = "row">
-						<div class = "col-md-2"> </div>
-						<div class = "col-md-8">
-							<img class="img-responsive center-block" src="images/VBID_scaled.jpg"> </div>
-						<div class = "col-md-2"> </div>
-					</div>
-					<div class="row">
-						<div class = "col-md-1"> </div>
-						<div class = "col-md-10"> 
-					  <p class="text-center"><b>Value-based Insurance Design</b></p>
-					  <p class="text-justify small">Health researchers and insurance providers have championed the principle of reducing out-of-pocket expenses for highly valuable clinical services.
-											In this research, we develop bi-level optimization models to simultaneously determine (1) optimal treatment plans which maximize individual 
-											patient health and (2) optimal coinsurance rates for medication which maximizes population health. </p>
-											</div>
-						<div class = "col-md-1"> </div>
-					</div>
-				</div>
-				
-								<div class="col-md-2"> <!-- spacer -->
-				
-				<!--/div>
-				
-			</div>
-		</div-->
 	</div>
 	
 	
