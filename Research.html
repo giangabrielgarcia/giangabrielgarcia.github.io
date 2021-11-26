@@ -18,19 +18,6 @@
 </head>
 
 <body>
-	<script>
-		$(document).ready(function () {
-			var url = window.location;
-			$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
-			$('ul.nav a').filter(function() {
-				 return this.href == url;
-			}).parent().addClass('active');
-		});
-	</script> 
-	<script>
-	var path = window.location.pathname.substring(1);
-	$('.nav>li>a[href="' + path + '"]').parent().addClass('active');
-	</script> 
 
 
 <!-- Navigation Bar -->
@@ -40,9 +27,13 @@
 		</div>
 
 	<script>
-	$(function(){
-	  $("#nav-placeholder").load("Navigation2.html");
-	});
+	  $(function(){
+		$("#nav-placeholder").load("Navigation2.html", function() {
+		//wait for ajax load n add active class
+			//$(".navbar-default .navbar-nav > .active").find("li:nth-child(1)").addClass("active");
+		$('a[href="' + decodeURIComponent(window.location.pathname.replace(/^\/|\/$/g, '')) + '"]').parent().addClass('active');
+		});
+	  });      
 	</script>
 	
 	
