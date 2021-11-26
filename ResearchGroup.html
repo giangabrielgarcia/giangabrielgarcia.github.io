@@ -12,13 +12,28 @@
     <!--     Font Awesome     -->
     <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   
 </head>
 
 <body>
 <!-- Navigation Bar -->
-	  <nav class="navbar navbar-default">
-        <div class="container">
+	<div class="container">
+		<div id="nav-placeholder">
+
+		</div>
+
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("Navigation.html");
+	});
+	</script>
+	
+	
+	
+	  <!--nav class="navbar navbar-default">
+
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
@@ -31,15 +46,15 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="index">Home</a></li>
-              <!-- <li><a href="Education.html">Education</a></li> -->
               <li><a href="Research">Research</a></li>
 			  <li class="active"><a href="ResearchGroup">Research Group</a></li>
-			  <!-- <li><a href="Teaching.html">Teaching</a></li> -->
 			  <li><a href="HonorsAwards">Honors/Awards</a></li>
 			  <li><a href="Diversity">Diversity</a></li>
 			  <li><a href="CV">Curriculum Vitae</a></li>
 			  </ul>
-          </div><!--/.nav-collapse -->   
+          </div>
+		</nav-->
+	<!--/.nav-collapse -->   
 <!-- Jumbotron-->
 <!--    <div class="jumbotron" style="background-image: url(images/UMbanner.png); background-size: cover;">
       <h1 style="color:white !important" class="text-center">Gian-Gabriel Garcia</h1>
@@ -136,28 +151,47 @@
 			<div class="col-md-9"> 
 				<p> <b> <font size="+1">Che-Yi Liao</font></b> </p>
 				<p> PhD in Industrial Engineering (Expected 2026)</p>
-				<p> Che-Yi is a PhD student in ISyE at Georgia Tech, holding his Masters' degree in Industrial and Operations Engineering 
+				<p> I am PhD student in ISyE at Georgia Tech, holding my Masters' degree in Industrial and Operations Engineering 
 				from the University of Michigan and Bachelors in Shipping and Transportation Management from the National Taiwan Ocean University. 
-				His primary research interests lie in Healthcare Analytics and Healthcare OR where he applies Predictive Modeling, Spatial-Temporal Modeling, 
-				and Simulation to guide medical decision making. Che-Yi is currently collaborating with Massachusetts General Hospital on predicting and addressing 
+				My primary research interests lie in Healthcare Analytics and Healthcare OR where I apply Predictive Modeling, Spatial-Temporal Modeling, 
+				and Simulation to guide medical decision making. I am currently collaborating with Massachusetts General Hospital on predicting and addressing 
 				the ongoing opioid crisis.  </p>
 			</div>
 		</div>	
 		<div class="row" style="margin-bottom:1cm">  
 			<div class="col-md-2"> 
-			<center>Photo coming soon</center> </div>
+			<center><img class="img-responsive" src="images/custodio_photo.jpg" width="160" height="200"></img></center> </div>
 			<div class="col-md-0"> </div>
 			<div class="col-md-9"> 
 				<p> <b>Kelsey Custodio</b> </p>
-				<p> PhD in Industrial Engineering (Expected 2025)</p>
-				<p> About</p>
+				<p> PhD in Operations Research (Expected 2026)</p>
+				<p>I am a first-year PhD student in Operations Research, holding a MS in Operations Research from Columbia University and a BS in Industrial Engineering from Georgia Tech. 
+				My research interests are resource allocation problems and fairness in decision making models along with their applications to healthcare. 
+				Currently, I am analyzing VA wait time data to identify trends in wait times by type of consultation and location.</p>
 			</div>
 		</div>		
 	
 	
 	
 	<div class="page-header"><h3> Masters and Undergraduate Students </h3> </div>
-	
+			<div class="row" style="margin-bottom:1cm">  
+			<div class="col-md-2"> 
+			<center><p>Image coming soon</p></center> </div>
+			<div class="col-md-0"> </div>
+			<div class="col-md-9"> 
+				<p> <b><font size="+1">Jiahui Luo</font></b> </p>
+				<p> MS in Statistics (Expected 2021)</p>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom:1cm">  
+			<div class="col-md-2"> 
+			<center><p>Image coming soon</p></center> </div>
+			<div class="col-md-0"> </div>
+			<div class="col-md-9"> 
+				<p> <b> <font size="+1">Jasbir Singh</font></b> </p>
+				<p> MS in Industrial Engineering (Expected 2022)</p>
+			</div>
+		</div>
 	
 </section>
 
@@ -169,6 +203,7 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="bootstrap3/js/bootstrap.min.js"></script>
+
 </html>
 
   
