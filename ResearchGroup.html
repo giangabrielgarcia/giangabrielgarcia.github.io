@@ -31,9 +31,14 @@
 		</div>
 
 	<script>
-	$(function(){
-	  $("#nav-placeholder").load("Navigation.html");
-	});
+	  $(function(){
+		$("#nav-placeholder").load("Navigation.html", function() {
+		//wait for ajax load n add active class
+			//$(".navbar-default .navbar-nav > .active").find("li:nth-child(1)").addClass("active");
+		//$('a[href="' + decodeURIComponent(window.location.pathname.replace(/^\/|\/$/g, '')) + '"]').parent().addClass('active');
+		$('a[href="index"]').parent().addClass('active');
+		});
+	  });      
 	</script>
 
 
@@ -91,20 +96,28 @@
 	<div class="page-header"><h3> Masters and Undergraduate Students </h3> </div>
 			<div class="row" style="margin-bottom:1cm">  
 			<div class="col-md-2"> 
-			<center><p>Image coming soon</p></center> </div>
+			<center><img class="img-responsive" src="images/Headshot_GaryLuo.jpg" width="160" height="200"></img></center> </div>
 			<div class="col-md-0"> </div>
 			<div class="col-md-9"> 
 				<p> <b><font size="+1">Jiahui Luo</font></b> </p>
 				<p> MS in Statistics (Expected 2021)</p>
+				<p> I am an MS student in Statistics in the H. Milton Stewart School of Industrial and Systems Engineering at Georgia Tech. In May 2020, I graduated from the University of Maryland College Park with a BS in Mathematics and Economics. 
+				My research interest lies at the intersection of statistics, operations research, and economics with applications to healthcare. I am especially interested in the interface between behavioral modeling and how we use that in decision-making. 
+				Currently, I am working with Dr. Garcia on a behavioral modeling project to investigate the concussion-reporting behavior and intentions based on both biological and social/environmental factors of athletes.</p>
+				<p><a href = "https://www.linkedin.com/in/jiahuiluo/">LinkedIn</a> </p>
 			</div>
 		</div>
 		<div class="row" style="margin-bottom:1cm">  
 			<div class="col-md-2"> 
-			<center><p>Image coming soon</p></center> </div>
+			<center><img class="img-responsive" src="images/Headshot_JasbirSingh.jpg" width="160" height="200"></img></center> </div>
 			<div class="col-md-0"> </div>
 			<div class="col-md-9"> 
 				<p> <b> <font size="+1">Jasbir Singh</font></b> </p>
 				<p> MS in Industrial Engineering (Expected 2022)</p>
+				<p>I am an MS student in Industrial Engineering at Georgia Tech, with expected graduation date in May 2022. I have bachelor’s degree in Industrial Engineering degree from Universidad Santa María La Antigua (Panama City, Panama). 
+				My research interests relate to the improvement of health operations, services and decision making through data analytics. 
+				Currently, I am working on topics related to health equity and the relationship between concussion identification and baseline testing at different time-points. </p>
+				<p><a href = "https://www.linkedin.com/in/jasingharauz/">LinkedIn</a> </p>
 			</div>
 		</div>
 	
