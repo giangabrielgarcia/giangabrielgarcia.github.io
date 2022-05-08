@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap);
+
+:root {
+  --gray-text: #6a6262; 
+}
+
+body {
+  margin: 30px 100px;
+  font-family: "Lato";
+}
+
+ul li {
+  list-style: none;
+}
+
+
+/* header */
+
+/* Gian's name on homepage */
+#name-title {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+#name-title.active {
+  text-decoration: none;
+}
+
+.name-box {
+  margin-top: -5px;
+}
+
+/* navbar links */
+.navbar-text {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.navlinks {
+  display: flex; 
+  flex-direction: row;
+}
+
+.navlink-styles {
+  margin-right: 30px;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--gray-text);
+}
+
+a.active {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  padding-bottom: 3px;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: black;
+}
+
