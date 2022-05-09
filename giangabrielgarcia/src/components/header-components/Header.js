@@ -29,7 +29,7 @@ const Header = () => {
           <div className="hamburgerlink-container">
             <h1>
               <Link className="name-title" to="/">
-                Gian-Gabriel Garcia
+                Gian-Gabriel Garcia, PhD
               </Link>
             </h1>
             <Link to="#" className="hamburger" onClick={handleButtonClick}>
