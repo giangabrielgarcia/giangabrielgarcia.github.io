@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const HamburgerLinks = () => {
   return (
@@ -27,11 +27,6 @@ const HamburgerLinks = () => {
         <li>
           <NavLink className="link-styles" to="/diversity">
             Diversity
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="link-styles" to="/cv">
-            CV
           </NavLink>
         </li>
       </ul>

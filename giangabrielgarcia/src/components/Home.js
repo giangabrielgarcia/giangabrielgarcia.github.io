@@ -1,6 +1,7 @@
 import Header from "./header-components/Header";
 import garcia from '../assets/images/garcia-headshot.jpg';
 import { Link } from 'react-router-dom';
+import cv from '../assets/Garcia_CV.pdf';
 
 const Home = () => {
     return (
@@ -9,9 +10,10 @@ const Home = () => {
         <div className='about'>
         <div className='img-container'>
             <img src={garcia} alt="Professor Garcia's professional headshot" />
+           <a href={cv} target="_blank" rel="noreferrer"><button>Download CV</button></a>
             <h3 className='connect'>Connect With Me</h3>
                 
-            <div> 
+            {/* <div> 
             <Link href="mailto:giangarcia@gatech.edu">
           <span class="glyphicon glyphicon-envelope"></span>
         </Link>   
@@ -28,7 +30,7 @@ const Home = () => {
 		
 		<Link href="https://www.linkedin.com/in/gian-gabriel-garcia-7a04b785/" target="_blank">
 		<i class="fa fa-linkedin-square"></i></Link>
-            </div>
+            </div> */}
         </div>
          <div className='about-text'>
              <h2 className='center'>About Me</h2>
