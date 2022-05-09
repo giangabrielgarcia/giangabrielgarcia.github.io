@@ -2,17 +2,31 @@
 @import url(https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css);
 
+/* SMALL SCREEN SIZE - MOBILE FIRST! */
+
 :root {
-  --gray-text: #6a6262; 
+  --special-text: #085195;  
 }
 
 body {
   margin: 0px;
+}
+
+.body-container {
+  margin: 17px 20px;
   font-family: "Lato";
 }
 
 ul li {
   list-style: none;
+}
+
+.page-title {
+  font-size: 22px;
+}
+
+.subtitle {
+  font-size: 20px;
 }
 
 .gray-button {
@@ -55,7 +69,12 @@ ul li {
   margin-top: 25px;
 }
 
+footer {
+  margin-top: 100px;
+}
+
 /* header */
+
 /* Gian's name on homepage */
 .name-title {
   font-size: 24px;
@@ -69,28 +88,38 @@ ul li {
   text-decoration: none;
 }
 
+/* regular links and hamburger links (small devices) */
+#small-url {
+  font-size: 14.5px;
+}
+
 .link-styles {
   white-space: nowrap;
   text-decoration: none;
   font-size: 16px;
-  color: var(--gray-text);
+  color: var(--special-text);
   line-height: 65px;
 }
 
-a {
-  text-decoration: none;
-  color: var(--gray-text);
-  font-size: 16px;
-}
-
-a.active {
+.link-styles.active {
   border-bottom-color: black;
   border-bottom-style: solid;
   border-bottom-width: 3px;
   padding-bottom: 3px;
 }
 
-a:hover {
+.link-styles:hover {
+  font-weight: bolder;
+  color: black;
+}
+
+.reg-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--special-text);
+}
+
+.reg-link:hover {
   font-weight: bolder;
   color: black;
 }
@@ -121,7 +150,7 @@ a:hover {
 
 .hamburger .bar {
   height: 3.5px; 
-  background-color: var(--gray-text);
+  background-color: var(--special-text);
   margin-bottom: 4px;
 }
 
@@ -141,7 +170,7 @@ a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 65px;
+  margin-top: 45px;
   margin-bottom: 45px;
 }
 
@@ -151,13 +180,13 @@ p {
 }
 
 .small-icons {
-  font-size: 28px;
+  font-size: 22px;
   margin: 0px 15px;
   color: black;
 }
 
 .small-icons:hover {
-  text-shadow: 1px 0px 3px var(--gray-text);
+  text-shadow: 1px 0px 3px var(--special-text);
 }
 
 .connect {
@@ -189,91 +218,11 @@ p {
 width: 300;
 }
 
-
-
-@media screen and (min-width: 800px) {
-  .body-container {
-    margin: 10px 50px;
-  }
-
-  .navbar-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .navlinks {
-    display: flex; 
-    flex-direction: row;
-    padding-left: 0px;
-  }  
-
-  .navlink-styles {
-    margin: 0px 20px;
-    white-space: nowrap;
-    text-decoration: none;
-    font-size: 16px;
-    color: var(--gray-text);
-    text-shadow:none;
-  }
-  
-  /* hamburger links */
-  .hamburger-container {
-    display: none;
-  }
-
-  /* homepage */
-  .about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 35px;
-  }
-
-  .about-text {
-    margin: 0px 50px;
-  }
-
-  .about-headshot {
-    width: 300px;
-    height: 350px;
-    object-fit: contain;
-  }
-
-  .img-container {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  /* .pdf {
-    width: 800px;
-  } */
-
+/* research page */
+.carousel-container {
+  margin-top: 30px;
+  width: 100%;
 }
-
-@media screen and (min-width: 1100px) {
-  .navbar-container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .navlinks {
-    margin-top: 15px;
-  }
-
-  .about-headshot {
-    width: 350px;
-    height: 400px;;
-    object-fit: contain;
-    margin-top: 30px;
-  }
-
-  @media screen and (min-width: 1230px) {
-    .body-container {
-      max-width: 1155px;
-      margin: auto;
-    
-    }
-  }
+.slide-size {
+  width: 100%;
 }

@@ -1,14 +1,17 @@
 import Header from "./header-components/Header";
+// import $ from 'jquery';
+import Footer from "./header-components/Footer";
+import ResearchCarousel from './ResearchCarousel';
 
 const Research = () => {
     return (
         <div className='body-container'> 
             <Header />
             <div className='hide-body'>
-                <h1>
-                    research page
-                </h1>
+
+            <ResearchCarousel /> 
             </div>
+            <Footer />
         </div>
     )
 }

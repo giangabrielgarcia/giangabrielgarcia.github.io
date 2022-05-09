@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const HamburgerLinks = () => {
   return (
     <div>
-      <ul className="hamburger-container">
+      <ul className="hamburger-container mt-4">
         <li>
           <NavLink className="link-styles" to="/">
             Home
