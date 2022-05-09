@@ -2,15 +2,12 @@ import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar-text">
-        <div className='name-box'>
+    <div className="navbar-container">
         <h1>
-        <Link id="name-title" to="/">
+        <Link className="name-title" to="/">
           Gian-Gabriel Garcia
         </Link>
-      </h1>
-        </div>
-
+        </h1>
       <ul className="navlinks">
         <li>
           <NavLink className="navlink-styles" to="/">

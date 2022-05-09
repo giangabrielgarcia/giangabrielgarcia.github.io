@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 30px 100px;
+  margin: 20px 20px;
   font-family: "Lato";
 }
 
@@ -13,43 +13,32 @@ ul li {
   list-style: none;
 }
 
-
 /* header */
-
 /* Gian's name on homepage */
-#name-title {
-  font-size: 30px;
+.name-title {
+  font-size: 24px;
   text-decoration: none;
   color: black;
 }
 
-#name-title.active {
+.name-title.active {
   text-decoration: none;
-}
-
-.name-box {
-  margin-top: -5px;
-}
-
-/* navbar links */
-.navbar-text {
-  display: flex;
-  flex-direction: row;
-  white-space: nowrap;
-  align-items: center;
-}
-
-.navlinks {
-  display: flex; 
-  flex-direction: row;
 }
 
 .navlink-styles {
   margin-right: 30px;
   white-space: nowrap;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--gray-text);
+}
+
+.link-styles {
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--gray-text);
+  line-height: 65px;
 }
 
 a.active {
@@ -64,3 +53,71 @@ a:hover {
   color: black;
 }
 
+/* hamburger */
+.hamburger-container {
+  text-align: center;
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.hamburgerlink-container {
+  text-align: center;
+}
+
+/* hamburger button */
+.hamburger {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 25px; 
+}
+
+.hamburger .bar {
+  height: 3.5px; 
+  background-color: var(--gray-text);
+  margin-bottom: 4px;
+}
+
+.bar.active {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    margin: 10px 100px;
+  }
+
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navlinks {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+  }  
+  
+  /* hamburger links */
+  .hamburger-container {
+    display: none;
+  }
+
+  @media screen and (min-width: 1100px) {
+    .navbar-container {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .navlinks {
+      margin-top: 20px;
+    }
+  }
+
+}

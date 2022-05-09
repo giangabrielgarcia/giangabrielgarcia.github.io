@@ -1,9 +1,9 @@
-import Navbar from "./header-components/Navbar";
+import Header from "./header-components/Header";
 
 const HonorsAwards = () => {
     return (
         <div> 
-            <Navbar />
+            <Header />
             <h1>
                 HonorsAwards page
             </h1>

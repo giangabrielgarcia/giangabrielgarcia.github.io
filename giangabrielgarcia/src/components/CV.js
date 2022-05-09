@@ -1,9 +1,9 @@
-import Navbar from "./header-components/Navbar";
+import Header from "./header-components/Header";
 
 const CV = () => {
     return (
         <div> 
-            <Navbar />
+            <Header />
             <h1>
                 CV page
             </h1>
