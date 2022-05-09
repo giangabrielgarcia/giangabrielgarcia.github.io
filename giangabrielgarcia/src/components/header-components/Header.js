@@ -13,9 +13,7 @@ const Header = () => {
   return (
     <div>
       <nav>
-        {largeScreen ? (
-          <Navbar />
-        ) : (
+        {largeScreen ? <Navbar /> : 
           <div className="hamburgerlink-container">
             <h1>
               <Link className="name-title" to="/">
@@ -28,7 +26,7 @@ const Header = () => {
               <div className="bar"></div>
             </Link>
           </div>
-        )}
+        }
       </nav>
 
       {toggle && <HamburgerLinks />}

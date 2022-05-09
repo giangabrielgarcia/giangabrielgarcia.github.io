@@ -5,6 +5,7 @@ import Research from './components/Research';
 import ResearchGroup from './components/ResearchGroup';
 import HonorsAwards from './components/HonorsAwards';
 import Diversity from './components/Diversity';
+import CV from './components/CV';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/research-group' element={<ResearchGroup />} />
         <Route path='/honors-awards' element={<HonorsAwards />} />
         <Route path='/diversity' element={<Diversity />} />
+        <Route path='/cv' element={<CV />} />
       </Routes> 
     </Router>
   );

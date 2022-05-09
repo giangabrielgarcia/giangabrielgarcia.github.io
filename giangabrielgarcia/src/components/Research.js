@@ -2,7 +2,7 @@ import Header from "./header-components/Header";
 
 const Research = () => {
     return (
-        <div> 
+        <div className='body-container'> 
             <Header />
             <h1>
                 Research Page 
