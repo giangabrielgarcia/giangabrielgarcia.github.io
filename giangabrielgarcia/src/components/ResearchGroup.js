@@ -4,9 +4,11 @@ const ResearchGroup = () => {
     return (
         <div className='body-container'> 
             <Header />
-            <h1>
-                ResearchGroup page
-            </h1>
+            <div className='hide-body'>
+                <h1>
+                    research group page
+                </h1>
+            </div>
         </div>
     )
 }

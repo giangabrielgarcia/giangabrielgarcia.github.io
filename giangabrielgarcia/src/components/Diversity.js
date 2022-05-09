@@ -4,9 +4,12 @@ const Diversity = () => {
     return (
         <div className='body-container'> 
             <Header />
-            <h1>
-                Diversity page
-            </h1>
+            <div className='hide-body'>
+                <h1>
+                    Diversity page
+                </h1>
+            </div>
+       
         </div>
     )
 }

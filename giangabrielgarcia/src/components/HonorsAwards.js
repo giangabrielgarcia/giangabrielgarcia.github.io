@@ -4,9 +4,11 @@ const HonorsAwards = () => {
     return (
         <div className='body-container'> 
             <Header />
-            <h1>
-                HonorsAwards page
-            </h1>
+            <div className='hide-body'>
+                <h1>
+                    Honors and awards page
+                </h1>
+            </div>
         </div>
     )
 }

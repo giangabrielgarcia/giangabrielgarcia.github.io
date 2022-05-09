@@ -1,15 +1,17 @@
 import Header from "./header-components/Header";
 import garcia from '../assets/images/garcia-headshot.jpg';
+import cv from '../assets/Garcia_CV.pdf';
 
 
 const Home = () => {
     return (
         <div className='body-container'> 
         <Header />
-        <div className='about'>
+        <div className='about hide-body'>
             <div className='img-container'>
                 <img className='about-headshot'src={garcia} alt="Professor Garcia's professional headshot" />
                 <h3 className='connect'>Connect With Me</h3>
+                
                 <div> 
                     <a target='_blank' rel='noreferrer' href = 'mailto: giangarcia@gatech.edu'>
                     <i className="bi-envelope small-icons"></i>
@@ -27,6 +29,7 @@ const Home = () => {
                     <i className="bi-linkedin small-icons" style={{fontSize: "25px"}}></i>
                     </a>   
                 </div>
+                <a target='_blank' rel='noreferrer' href = {cv}><button className='gray-button mt-25'>Download CV</button></a>
             </div>
 
 

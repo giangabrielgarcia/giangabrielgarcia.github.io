@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 20px 20px;
+  margin: 0px;
   font-family: "Lato";
 }
 
@@ -29,12 +29,30 @@ ul li {
   box-shadow: 1px 1px 5px black;
 }
 
+.gray-button-sm {
+  padding: 5px;
+  border-radius: 6px;
+  margin: 0px 5px;
+  border: none;
+  box-shadow: 1px 1px 2px black;
+  font-family: "Lato";
+}
+
+.gray-button-sm:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+}
+
 .center {
   text-align: center;
 }
 
 .mt-50 {
   margin-top: 50px;
+}
+
+.mt-25 {
+  margin-top: 25px;
 }
 
 /* header */
@@ -148,8 +166,33 @@ p {
   color: black;
 }
 
+/* CV */
+/* object {
+  width: 100vw;
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+
+#center-pdf {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+#document{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+
+#pdf {
+width: 300;
+}
+
+
+
 @media screen and (min-width: 800px) {
-  body {
+  .body-container {
     margin: 10px 50px;
   }
 
@@ -202,6 +245,10 @@ p {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
+  /* .pdf {
+    width: 800px;
+  } */
 
 }
 

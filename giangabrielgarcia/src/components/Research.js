@@ -4,9 +4,11 @@ const Research = () => {
     return (
         <div className='body-container'> 
             <Header />
-            <h1>
-                Research Page 
-            </h1>
+            <div className='hide-body'>
+                <h1>
+                    research page
+                </h1>
+            </div>
         </div>
     )
 }

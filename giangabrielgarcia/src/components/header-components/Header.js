@@ -5,10 +5,22 @@ import Navbar from "./Navbar";
 import HamburgerLinks from "./HamburgerLinks";
 
 const Header = () => {
+  const largeScreen = useMediaQuery({ query: "(min-width: 800px)" });
   const [toggle, setToggle] = useState(false);
   const handleButtonClick = () => setToggle((toggle) => !toggle);
 
-  const largeScreen = useMediaQuery({ query: "(min-width: 800px)" });
+  const hideBody = document.getElementsByClassName('hide-body')[0];
+
+  if(toggle) {
+    if(hideBody) {
+      hideBody.style.display = 'none';
+    } 
+  } else {
+      if(hideBody) {
+        hideBody.style.display = 'block';
+      }
+  }
+  
 
   return (
     <div>

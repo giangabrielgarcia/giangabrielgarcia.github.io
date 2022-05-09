@@ -35,11 +35,6 @@ const Navbar = () => {
             Diversity
           </NavLink>
         </li>
-        <li>
-          <NavLink className="navlink-styles" to="/cv">
-            CV
-          </NavLink>
-        </li>
       </ul>
     </div>
   );
