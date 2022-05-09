@@ -19,18 +19,11 @@ ul li {
   font-size: 24px;
   text-decoration: none;
   color: black;
+  white-space: nowrap;
 }
 
 .name-title.active {
   text-decoration: none;
-}
-
-.navlink-styles {
-  margin-right: 30px;
-  white-space: nowrap;
-  text-decoration: none;
-  font-size: 16px;
-  color: var(--gray-text);
 }
 
 .link-styles {
@@ -96,13 +89,21 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
   }
 
   .navlinks {
     display: flex; 
     flex-direction: row;
-    justify-content: center;
   }  
+
+  .navlink-styles {
+    margin-left: 40px;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--gray-text);
+  }
   
   /* hamburger links */
   .hamburger-container {
@@ -116,7 +117,7 @@ a:hover {
     }
   
     .navlinks {
-      margin-top: 20px;
+      margin-top: 15px;
     }
   }
 
