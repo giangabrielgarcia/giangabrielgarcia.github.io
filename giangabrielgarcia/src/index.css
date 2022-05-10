@@ -5,19 +5,22 @@
 /* SMALL SCREEN SIZE - MOBILE FIRST! */
 
 :root {
-  --special-text: #085195;  
+  --special-text: #085195;
 }
-
+.color {
+  color: var(--special-text);
+}
 body {
   margin: 0px;
 }
-
 .body-container {
   margin: 17px 20px;
   font-family: "Lato";
   min-height: calc(100vh - 220px);
 }
-
+.mb-50 {
+  margin-bottom: 50px;
+}
 /* header */
 .header-container {
   margin: 18px 0px;
@@ -25,7 +28,6 @@ body {
   text-align: center;
   height: 60px;
 }
-
 footer {
   margin-top: 50px;
   height: 75px;
@@ -37,37 +39,30 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
 /* this keeps footer at the bottom (in combination with body-container) */
 .footer-pin {
   position: relative;
   left: 0;
   bottom: 0;
 }
-
 .flex-center {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-
 ul li {
-  list-style: none;
+  list-style:none;
 }
-
 ol {
   line-height: 30px;
 }
-
 .break {
   margin-bottom: 15px;
 }
-
 .page-title {
   font-size: 24px;
   font-weight: bold;
 }
-
 .subtitle {
   font-size: 20px;
 }
@@ -192,11 +187,11 @@ ol {
   position: absolute;
   top: 25px;
   right: 25px;
-  width: 25px; 
+  width: 25px;
 }
 
 .hamburger .bar {
-  height: 3.5px; 
+  height: 3.5px;
   background-color: var(--special-text);
   margin-bottom: 4px;
 }
@@ -277,7 +272,7 @@ width: 300;
   margin-bottom: 40px;
 }
 .publication-subtitle {
-  margin-top:50px;
+  margin-top: 50px;
 }
 .download-link {
   font-size: 22px;
@@ -302,4 +297,12 @@ width: 300;
 .student-title-center {
   text-align: center;
   font-weight: bold;
+}
+
+ /* awards and honors */
+ .awards-container {
+  line-height: 25px;
+}
+.diversity-links {
+  line-height: 35px;
 }
