@@ -7,10 +7,14 @@ import Research from './components/Research';
 import ResearchGroup from './components/ResearchGroup';
 import HonorsAwards from './components/HonorsAwards';
 import Diversity from './components/Diversity';
+import Footer from './components/header-components/Footer';
+import Header from './components/header-components/Header';
 
 const App = () => {
   return (
+    <div>
     <Router> 
+    <Header />
       <Routes>
         <Route exact path='/' element={<Home />} /> 
         <Route path='/research' element={<Research />} />
@@ -19,6 +23,9 @@ const App = () => {
         <Route path='/diversity' element={<Diversity />} />
       </Routes> 
     </Router>
+    <Footer />
+    </div>
+    
   );
 }
 

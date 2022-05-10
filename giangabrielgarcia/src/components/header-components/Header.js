@@ -10,23 +10,30 @@ const Header = () => {
   const handleButtonClick = () => setToggle((toggle) => !toggle);
 
   const hideBody = document.getElementsByClassName('hide-body')[0];
+  const footer = document.querySelector('footer');
 
   if(toggle) {
     if(hideBody) {
       hideBody.style.display = 'none';
     } 
+    if(footer) {
+      footer.style.display = 'none';
+    }
   } else {
       if(hideBody) {
         hideBody.style.display = 'block';
+      }
+      if(footer) {
+        footer.style.display = 'block';
       }
   }
   
 
   return (
-    <div>
+    <div className='header-container mx-auto'>
       <nav>
         {largeScreen ? <Navbar /> : 
-          <div className="hamburgerlink-container">
+          <div>
             <h1>
               <Link className="name-title" to="/">
                 Gian-Gabriel Garcia, PhD

@@ -1,13 +1,9 @@
-import Header from "./header-components/Header";
 import garcia from '../assets/images/garcia-headshot.jpg';
 import cv from '../assets/Garcia_CV.pdf';
-import Footer from "./header-components/Footer";
-
 
 const Home = () => {
     return (
         <div className='body-container'> 
-        <Header />
         <div className='about hide-body'>
             <div className='img-container'>
                 <img className='about-headshot'src={garcia} alt="Professor Garcia's professional headshot" />
@@ -48,7 +44,6 @@ const Home = () => {
             <p>In my service efforts, I am interested in increasing diversity, equity, and inclusion in STEM through mentorship and outreach.</p>
          </div>
          </div>
-         <Footer />
         </div>
     )
 }

@@ -1,24 +1,26 @@
-/* large screens */
+/* LARGE SCREENS */
 
 /* SCREEN SIZE: 800px and larger */
 @media screen and (min-width: 800px) {
     .body-container {
       margin: 10px 50px;
     }
-  
+    .header-container {
+      max-width: 1100px;
+      font-family: "Lato";
+      text-align: center;
+    }
     .navbar-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
     }
-  
     .navlinks {
       display: flex; 
       flex-direction: row;
       padding-left: 0px;
     }  
-  
     .navlink-styles {
       margin: 0px 20px;
       white-space: nowrap;
@@ -54,12 +56,13 @@
     }
   
     .about-text {
-      margin: 0px 50px;
+      margin-left: 40px;
+      margin-right: 10px;
     }
   
     .about-headshot {
       width: 300px;
-      height: 350px;
+      height: 100%;
       object-fit: contain;
     }
   
@@ -73,6 +76,18 @@
     }
     .slide-size {
         width: 100%;
+    }
+    .subtitle {
+      font-size: 18px;
+    }
+    /* research page */
+    .research-text {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+    }
+    .research-para-margin {
+      margin-right: 20px;
     }
   }
   
@@ -90,17 +105,22 @@
     
     .about-headshot {
         width: 350px;
-        height: 400px;;
+        height: 100%;
         object-fit: contain;
         margin-top: 10px;
     }
- 
+    /* research */
+    .carousel-container {
+      margin-top: 30px;
+      padding-right: 10px;
+      width: 1100px;
+  }
 }
     
 /* SCREEN SIZE - DESKTOP: 1230 and larger */
 @media screen and (min-width: 1230px) {
     .body-container {
-        max-width: 1155px;
+        max-width: 1100px;
         margin: auto;
     }
     .navbar-container {

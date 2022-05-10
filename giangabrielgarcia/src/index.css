@@ -15,6 +15,34 @@ body {
 .body-container {
   margin: 17px 20px;
   font-family: "Lato";
+  min-height: calc(100vh - 220px);
+}
+
+/* header */
+.header-container {
+  margin: 18px 0px;
+  font-family: "Lato";
+  text-align: center;
+  height: 95px;
+}
+
+footer {
+  margin-top: 50px;
+  height: 75px;
+  padding: 20px;
+  background-color: rgb(221, 233, 248);
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* this keeps footer at the bottom (in combination with body-container) */
+.footer-pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
 }
 
 ul li {
@@ -74,12 +102,6 @@ ul li {
   margin-top: 25px;
 }
 
-footer {
-  margin-top: 100px;
-}
-
-/* header */
-
 /* Gian's name on homepage */
 .name-title {
   font-size: 24px;
@@ -87,10 +109,16 @@ footer {
   color: black;
   white-space: nowrap;
   margin-top: 10px;
+  margin-right: 30px;
 }
 
 .name-title.active {
   text-decoration: none;
+}
+
+.name-title:hover {
+  color: var(--special-text);
+  font-weight: bold;
 }
 
 /* regular links and hamburger links (small devices) */
@@ -175,7 +203,7 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 45px;
 }
 
@@ -230,4 +258,7 @@ width: 300;
 .slide-size {
   width: 100%;
   border-radius: 10px;
+}
+.research-para {
+  margin-bottom: 40px;
 }
