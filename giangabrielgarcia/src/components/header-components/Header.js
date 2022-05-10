@@ -1,16 +1,21 @@
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import HamburgerLinks from "./HamburgerLinks";
 
 const Header = () => {
   const largeScreen = useMediaQuery({ query: "(min-width: 800px)" });
   const [toggle, setToggle] = useState(false);
-  const handleButtonClick = () => setToggle((toggle) => !toggle);
+  const handleButtonClick = () => setToggle(toggle => !toggle);
+
+  useEffect(() => {
+    setToggle(false);
+   }, []);
 
   const hideBody = document.getElementsByClassName('hide-body')[0];
   const footer = document.querySelector('footer');
+  // const hamlinks = document.getElementsByClassName('hamburger-container')[0];
 
   if(toggle) {
     if(hideBody) {
@@ -22,6 +27,8 @@ const Header = () => {
   } else {
       if(hideBody) {
         hideBody.style.display = 'block';
+        // setToggle(!toggle);
+        // hamlinks.style.display = 'none';
       }
       if(footer) {
         footer.style.display = 'block';

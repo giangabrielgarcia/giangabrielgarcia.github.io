@@ -24,10 +24,11 @@ const ResearchCarousel = () => {
     <Carousel activeIndex={index} onSelect={handleSelect}>
        {data.map((slide, i) => {
         return (
-          <Carousel.Item>        
+      
+          <Carousel.Item key={slide.image}>        
         <img
-          className="d-block slide-size"
-          src={slide.image}
+          className="d-block slide-size" 
+          src={slide.image} 
           alt="slider"
         />
       </Carousel.Item>
