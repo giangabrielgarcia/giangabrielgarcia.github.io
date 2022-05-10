@@ -105,7 +105,6 @@ const Research = () => {
                     </section>
                     <h2 className='page-title text-center mt-50'>Other Research</h2>
                         <a className='reg-link' target='_blank' rel='noreferrer' href="http://www.pitt.edu/~vacro">VaCRO: Vaccine Clinic Reconstitution Optimizer</a>
-               
             </div>
         </div>
     )
