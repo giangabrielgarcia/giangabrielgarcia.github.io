@@ -1,5 +1,5 @@
 import garcia from '../assets/images/garcia-headshot.jpg';
-import cv from '../assets/Garcia_CV.pdf';
+import cv from '../assets/cv/Garcia_CV.pdf';
 
 const Home = () => {
     return (

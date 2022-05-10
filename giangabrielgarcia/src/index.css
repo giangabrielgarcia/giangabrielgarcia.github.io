@@ -45,8 +45,22 @@ footer {
   bottom: 0;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
 ul li {
   list-style: none;
+}
+
+ol {
+  line-height: 30px;
+}
+
+.break {
+  margin-bottom: 15px;
 }
 
 .page-title {
@@ -235,13 +249,13 @@ p {
   margin-right: 0px;
 } */
 
-#center-pdf {
+/* #center-pdf {
   display: flex;
   justify-content: center;
   padding: 0px 10px;
-}
+} */
 
-#document{
+/* #document{
   position: relative;
   padding: 20px;
   width: 100%;
@@ -249,7 +263,7 @@ p {
 
 #pdf {
 width: 300;
-}
+} */
 
 /* research page */
 .carousel-container {
@@ -261,4 +275,17 @@ width: 300;
 }
 .research-para {
   margin-bottom: 40px;
+}
+.publication-subtitle {
+  margin-top:50px;
+}
+.download-link {
+  font-size: 22px;
+  margin: 0px 15px;
+  color: var(--special-text);
+}
+.download-link:hover {
+  text-shadow: 1px 0px 2px black;
+  font-size: 22.5px;
+  color: black;
 }
