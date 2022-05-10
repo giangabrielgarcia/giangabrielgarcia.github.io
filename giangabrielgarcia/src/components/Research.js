@@ -10,7 +10,7 @@ const Research = () => {
     return (
         <div className='body-container'> 
             <div className='hide-body'>
-                <h2 className='page-title text-center mt-40'>Current Research Projects</h2>
+                <h2 className='page-title text-center'>Current Research Projects</h2>
                 <ResearchCarousel /> 
                 <h2 className='page-title text-center mt-50'>Research Summary</h2>
                 <hr></hr>

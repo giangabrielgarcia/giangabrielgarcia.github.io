@@ -9,8 +9,8 @@ import luo from '../assets/images/luo-headshot.jpg';
 const ResearchGroup = () => {
     return (
         <div className='body-container'> 
-            <div className='hide-body title-spacer'>
-                <h4 className='page-title mt-4'>PhD Students</h4>
+            <div className='hide-body'>
+                <h4 className='page-title'>PhD Students</h4>
                 <hr></hr>
                 <div className='student-profile'>
                     <div className='img-container'>

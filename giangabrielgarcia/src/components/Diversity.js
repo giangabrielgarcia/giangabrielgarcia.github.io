@@ -5,8 +5,9 @@ const Diversity = () => {
         <div className='body-container'> 
             <div className='hide-body'>
                 <div className="callout">
-                    <h4>Diversity</h4>
-                    <p><u>Definition</u>:<i> (noun) the inclusion of individuals representing more than one national origin, color, religion, socioeconomic stratum, sexual orientation, etc.</i>
+                    <h4 className='page-title'>Diversity</h4>
+                    <hr></hr>
+                    <p className='thin-border border-style'><h5>Diversity</h5><u>Definition</u>:<i> (noun) the inclusion of individuals representing more than one national origin, color, religion, socioeconomic stratum, sexual orientation, etc.</i>
                     <small><br></br><a className='reg-link' href="http://dictionary.reference.com/browse/diversity?s=t">Dictionary.com</a></small></p>
 	            </div>
                 <div className='mb-50'>
@@ -16,8 +17,8 @@ const Diversity = () => {
                     </p>
                 </div>
 	            <div className = "row">
-                    <h3> Diversity Links </h3>
-                    <p>The organizations listed below have helped me to grow personally and professionally. I am very grateful for the support and opportunities they have presented to me:</p>
+                    <h5 className='subtitle fw-bold'> Diversity Links </h5>
+                    <p>The organizations listed below have helped me to grow personally and professionally.<br></br> I am very grateful for the support and opportunities they have presented to me:</p>
                     <ul className='diversity-links'>
                         <li><a className='reg-link' href="http://femmes.studentorgs.umich.edu/">Females Exceling More in Mathematics, Engineering, and Science (FEMMES)</a></li>
                         <li> IOE Diversity Initiative </li>
