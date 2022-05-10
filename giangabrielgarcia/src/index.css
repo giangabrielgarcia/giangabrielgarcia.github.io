@@ -23,7 +23,7 @@ body {
   margin: 18px 0px;
   font-family: "Lato";
   text-align: center;
-  height: 95px;
+  height: 60px;
 }
 
 footer {
@@ -217,7 +217,7 @@ ol {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 35px;
+  margin-top: 0px;
   margin-bottom: 45px;
 }
 
@@ -288,4 +288,18 @@ width: 300;
   text-shadow: 1px 0px 2px black;
   font-size: 22.5px;
   color: black;
+}
+
+/* research group page */
+.student-headshot {
+  width: 50%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.student-profile {
+  margin-bottom: 65px;
+}
+.student-title-center {
+  text-align: center;
+  font-weight: bold;
 }

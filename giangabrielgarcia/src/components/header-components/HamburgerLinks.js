@@ -29,11 +29,6 @@ const HamburgerLinks = () => {
             Diversity
           </NavLink>
         </li>
-        <li>
-          <NavLink className="link-styles" to="/cv">
-            CV
-          </NavLink>
-        </li>
       </ul>
     </div>
   );
