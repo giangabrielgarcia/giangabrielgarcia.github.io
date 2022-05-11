@@ -19,7 +19,7 @@ const Research = () => {
                 <div className='research-text'>
                     <div className='research-para-margin'>
                         <h4 className='subtitle fw-bold'> Interests </h4>
-                        <p>I am interested in designing data-driven frameworks for <b>Predictive Analytics</b> and <b>Prescriptive Analytics</b>as motivated by and applied to high-impact problems in <b>Health Policy, Personalized Medicine,</b> and <b>Medical Decision-Making</b>. This work entails the integration of methodologies from <b>data science, machine learning, stochastic modeling,</b> and <b>stochastic optimization</b>.</p>
+                        <p>I am interested in designing data-driven frameworks for <b>Predictive Analytics</b> and <b>Prescriptive Analytics</b> as motivated by and applied to high-impact problems in <b>Health Policy, Personalized Medicine,</b> and <b>Medical Decision-Making</b>. This work entails the integration of methodologies from <b>data science, machine learning, stochastic modeling,</b> and <b>stochastic optimization</b>.</p>
                     </div>
                     <div className='research-para-margin'>
                         <h4 className='subtitle fw-bold'> Applications </h4>
