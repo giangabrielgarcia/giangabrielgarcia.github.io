@@ -169,6 +169,18 @@ ol {
   color: black;
 }
 
+.url-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--special-text);
+  word-break: break-all;
+}
+
+.url-link:hover {
+  font-weight: bolder;
+  color: black;
+}
+
 /* hamburger */
 .hamburger-container {
   text-align: center;
