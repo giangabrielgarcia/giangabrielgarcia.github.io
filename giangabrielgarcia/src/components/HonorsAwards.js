@@ -1,3 +1,5 @@
+import { React } from 'react';
+
 const HonorsAwards = () => {
     return (
         <div className='body-container'> 

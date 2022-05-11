@@ -1,12 +1,9 @@
-import { NavLink, Link } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
+import { React } from 'react';
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
-        <Link className="name-title" to="/">
-          Gian-Gabriel Garcia, PhD
-        </Link>
       <ul className="navlinks">
         <li>
           <NavLink className="navlink-styles" to="/">

@@ -1,3 +1,4 @@
+import { React } from 'react';
 import lee from '../assets/images/lee-headshot.jpg';
 import liao from '../assets/images/liao-headshot.jpg';
 import custodio from '../assets/images/custodio-headshot.jpg';
@@ -20,7 +21,7 @@ const ResearchGroup = () => {
                         <h5 className='student-title-center'>Sun Ju Lee</h5>
                         <p> PhD in Operations Research (Expected 2024)</p>
 				        <p> I am a PhD student in Operations Research at the H. Milton Stewart School of Industrial and Systems Engineering. I received my BE and BA in Engineering Sciences with a concentration in Mechanical Engineering from Dartmouth College. My research interests lie broadly in problems motivated by health modeling and health policy applications. I am especially interested in equitable solutions to medical decision-making problems and interpretable machine learning algorithms in healthcare. Currently, I am working on personalized optimal prenatal care scheduling.</p>
-                        <a target='_blank' rel='noreferrer' href="https://www.isye.gatech.edu/users/sun-ju-lee" className='reg-link'>Personal Website</a>
+                        <a target='_blank' rel='noopener noreferrer' href="https://www.isye.gatech.edu/users/sun-ju-lee" className='reg-link'>Personal Website</a>
                     </div>
                 </div>
                 <div className='student-profile'>
@@ -53,7 +54,7 @@ const ResearchGroup = () => {
                         <h5 className='student-title-center'>Jasbir Singh</h5>
                         <p>MS in Industrial Engineering (Expected 2022)</p>
                         <p>I am an MS student in Industrial Engineering at Georgia Tech, with expected graduation date in May 2022. I have bachelor’s degree in Industrial Engineering degree from Universidad Santa María La Antigua (Panama City, Panama). My research interests relate to the improvement of health operations, services and decision making through data analytics. Currently, I am working on topics related to health equity and the relationship between concussion identification and baseline testing at different time-points.</p>
-                        <a className='reg-link' target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/jasingharauz/">LinkedIn</a>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/jasingharauz/">LinkedIn</a>
                     </div>
                 </div>
                 <div className='student-profile'>
@@ -64,7 +65,7 @@ const ResearchGroup = () => {
                         <h5 className='student-title-center'>Lisa Tripathy</h5>
                         <p>BS in Industrial & Systems Engineering (Expected 2023)</p>
                         <p>I am a BS student in Industrial & Systems Engineering, expecting to graduate in December 2023. My research interests involve using data analytics, statistics, and modeling towards solving problems related to healthcare operations, medical decision making, and health policy. Currently, I am working on using data analytics to quantify and measure equity in baseline testing for sports-related concussions.</p>
-                        <a className='reg-link' target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/lisa-tripathy-a42393178/">LinkedIn</a>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/lisa-tripathy-a42393178/">LinkedIn</a>
                     </div>
                 </div>
                 <div className='student-profile'>
@@ -75,7 +76,7 @@ const ResearchGroup = () => {
                         <h5 className='student-title-center'>Mateen Jangda</h5>
                         <p>BS in Industrial & Systems Engineering (Expected 2024)</p>
                         <p>I am a BS student in Data Analytics at the H. Milton Stewart School of Industrial and Systems Engineering. My research interests are in the healthcare operations and analytics field, where I am currently applying regression modeling. Currently, I am working on creating a tool which would allow us to determine which groups of individuals would most benefit from baseline testing.</p>
-                        <a className='reg-link' target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/mateen-jangda">LinkedIn</a>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/mateen-jangda">LinkedIn</a>
                     </div>
                 </div>
                 <h4 className='page-title title-spacer'>Alumni</h4>
@@ -87,7 +88,7 @@ const ResearchGroup = () => {
                     <div>
                         <h5 className='student-title-center'>Jiahui Luo</h5>
                         <p>MS in Statistics (Graduated 2021)</p>
-                        <a className='reg-link' target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/jiahuiluo/">LinkedIn</a>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/jiahuiluo/">LinkedIn</a>
                     </div>
                 </div>
             </div>
