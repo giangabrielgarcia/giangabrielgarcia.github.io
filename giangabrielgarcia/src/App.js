@@ -1,7 +1,8 @@
+import { React } from 'react';
 import './index.css';
 import './large.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Research from './components/Research';
 import ResearchGroup from './components/ResearchGroup';
@@ -13,7 +14,7 @@ import Header from './components/header-components/Header';
 const App = () => {
   return (
     <div>
-    <Router> 
+    <BrowserRouter> 
     <Header />
       <Routes>
         <Route exact path='/' element={<Home />} /> 
@@ -22,10 +23,9 @@ const App = () => {
         <Route path='/honors-awards' element={<HonorsAwards />} />
         <Route path='/diversity' element={<Diversity />} />
       </Routes> 
-    </Router>
+    </BrowserRouter>
     <Footer />
     </div>
-    
   );
 }
 
