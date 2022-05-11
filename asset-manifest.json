@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9faf7b86.css",
+    "main.js": "/static/js/main.2b550ea2.js",
+    "static/media/singh-headshot.jpg": "/static/media/singh-headshot.1d4e5584b1d0eb6eb808.jpg",
+    "static/media/tripathy-headshot.jpg": "/static/media/tripathy-headshot.3a70d666541203f126cf.jpg",
+    "static/media/garcia-headshot.jpg": "/static/media/garcia-headshot.4d7c3da3f8b41bf59622.jpg",
+    "static/media/liao-headshot.jpg": "/static/media/liao-headshot.ef451932fc2ce43d6b6d.jpg",
+    "static/media/2020-datadrivenstochastic.pdf": "/static/media/2020-datadrivenstochastic.649905bba7462861799a.pdf",
+    "static/media/preprint-monotonepolicies.pdf": "/static/media/preprint-monotonepolicies.61e7404d3532dfe287c2.pdf",
+    "static/media/jangda-headshot.jpg": "/static/media/jangda-headshot.bbbef82c57e17a1ea5d3.jpg",
+    "static/media/lee-headshot.jpg": "/static/media/lee-headshot.5f34813cdcc6c4aea13c.jpg",
+    "static/media/luo-headshot.jpg": "/static/media/luo-headshot.d456d79623317c41e4f7.jpg",
+    "static/media/2018-optimalcoinsurancerates.pdf": "/static/media/2018-optimalcoinsurancerates.b6a35f35e4e11ea98764.pdf",
+    "static/media/2019-datadrivenapproach.pdf": "/static/media/2019-datadrivenapproach.2275f31b8e290c3bdf99.pdf",
+    "static/media/opioid-crisis.jpg": "/static/media/opioid-crisis.c7b0690ffd47d4769466.jpg",
+    "static/media/maternal-health.jpg": "/static/media/maternal-health.d744e5046ece5e0b7013.jpg",
+    "static/media/concussion-management.jpg": "/static/media/concussion-management.ae095f00b9003126f978.jpg",
+    "static/media/2018-quantifyingthevalue.pdf": "/static/media/2018-quantifyingthevalue.d5020f73408cb1f510c3.pdf",
+    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.b1d8026ae1622555a9db.pdf",
+    "static/media/custodio-headshot.jpg": "/static/media/custodio-headshot.77f6971e7bf6d540be51.jpg",
+    "index.html": "/index.html",
+    "main.9faf7b86.css.map": "/static/css/main.9faf7b86.css.map",
+    "main.2b550ea2.js.map": "/static/js/main.2b550ea2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9faf7b86.css",
+    "static/js/main.2b550ea2.js"
+  ]
+}
