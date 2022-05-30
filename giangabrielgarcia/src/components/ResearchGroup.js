@@ -6,6 +6,8 @@ import singh from '../assets/images/singh-headshot.jpg';
 import tripathy from '../assets/images/tripathy-headshot.jpg';
 import jangda from '../assets/images/jangda-headshot.jpg';
 import luo from '../assets/images/luo-headshot.jpg';
+import gong from '../assets/images/gong-headshot.JPG';
+import duvvuri from '../assets/images/duvvuri-headshot.jpg';
 
 const ResearchGroup = () => {
     return (
@@ -48,15 +50,27 @@ const ResearchGroup = () => {
                 <hr></hr>
                 <div className='student-profile'>
                     <div className='img-container'>
-                        <img src={singh} className='student-headshot' alt='headshot of Jasbir Singh' /> 
+                        <img src={gong} className='student-headshot' alt='headshot of Xingyu Gong' /> 
                     </div>
                     <div>
-                        <h5 className='student-title-center'>Jasbir Singh</h5>
-                        <p>MS in Industrial Engineering (Expected 2022)</p>
-                        <p>I am an MS student in Industrial Engineering at Georgia Tech, with expected graduation date in May 2022. I have bachelor’s degree in Industrial Engineering degree from Universidad Santa María La Antigua (Panama City, Panama). My research interests relate to the improvement of health operations, services and decision making through data analytics. Currently, I am working on topics related to health equity and the relationship between concussion identification and baseline testing at different time-points.</p>
-                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/jasingharauz/">LinkedIn</a>
+                        <h5 className='student-title-center'>Xingyu Gong</h5>
+                        <p>BS in Industrial & Systems Engineering (Expected 2024)</p>
+                        <p>I am a BS student at the H. Milton Stewart School of Industrial and Systems Engineering concentrating in Economic and Financial system. My research interests relate to making rational and optimal policies with interpretatable decision process within the healthcare system. I’m currently working on work on developing efficient methods for interpretable treatment planning with Markov Decision Processes.</p>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/xingyu-gong">LinkedIn</a>
                     </div>
                 </div>
+                <div className='student-profile'>
+                    <div className='img-container'>
+                        <img src={duvvuri} className='student-headshot' alt='headshot of Vaishnavi Duvvuri' /> 
+                    </div>
+                    <div>
+                        <h5 className='student-title-center'>Vaishnavi Duvvuri</h5>
+                        <p>BS in Industrial & Systems Engineering (Expected 2024)</p>
+                        <p>I am a BS student at the H. Milton Stewart School of Industrial and Systems Engineering. My research interests involve health policy and using data analytics to further healthcare solutions. Currently, I’m working on using data analysis to analyze delays in the surveillance of opioid-related overdose deaths.</p>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/vaishnavi-d-73481a199/">LinkedIn</a>
+                    </div>
+                </div>
+                
                 <div className='student-profile'>
                     <div className='img-container'>
                         <img src={tripathy} className='student-headshot' alt='headshot of Lisa Tripathy' /> 
@@ -91,6 +105,17 @@ const ResearchGroup = () => {
                         <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/jiahuiluo/">LinkedIn</a>
                     </div>
                 </div>
+                <div className='student-profile'>
+                    <div className='img-container'>
+                        <img src={singh} className='student-headshot' alt='headshot of Jasbir Singh' /> 
+                    </div>
+                    <div>
+                        <h5 className='student-title-center'>Jasbir Singh</h5>
+                        <p>MS in Industrial Engineering (Graduated 2022)</p>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/jasingharauz/">LinkedIn</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )

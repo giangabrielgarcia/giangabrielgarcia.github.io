@@ -38,20 +38,30 @@ const Research = () => {
                     <h2 className='page-title text-center mt-50'>Publications</h2>
                     <h4 className='subtitle fw-bold publication-subtitle'>Peer-reviewed Journal Papers</h4>
                         <ol>
-                            <li className='break'><b>Garcia, G.P.</b>, E.J. Stringfellow, C. DiGennaro, N. Poellinger, J. Wood, S.E. Wakeman, M.S. Jalali, (2022) "Opioid Overdose Decedent Characteristics during COVID-19",<i>&nbsp; Annals of Medicine</i> (Accepted).</li>			
+                            <li className='break'><b>Garcia, G.P.</b>, R. Dehghanpoor, E. J. Stringfellow, M. Gupta, J. Rochelle, E. Mason, T. Pujol,
+                                M. S. Jalali, (2022) "Identifying and Characterizing Advice-Seekers for Recovery
+                                from Opioid Use Disorder: Social Media Analysis",<i>&nbsp; International Journal of Environmental
+                                Research and Public Health</i>, (Accepted). 
+                                <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.3390/ijerph19106281"> https://doi.org/10.3390/ijerph19106281</a></li>			
+			
 
-                            <li className='break'> Liao, C.-Y., <b>G.P. Garcia</b>, C. DiGennaro, M.S. Jalali, (2022) "Racial Disparities in Opioid Overdose Deaths in Massachusetts",<i>&nbsp; JAMA Network Open</i> (Accepted).</li>
+                            <li className='break'><b>Garcia, G.P.</b>, E.J. Stringfellow, C. DiGennaro, N. Poellinger, J. Wood, S.E. Wakeman, M.S. Jalali, (2022) 
+                            "Opioid Overdose Decedent Characteristics during COVID-19",<i>&nbsp; Annals of Medicine</i>, 54(1), 1081–1088.
+                            <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.1080/07853890.2022.2067350"> https://doi.org/10.1080/07853890.2022.2067350</a></li>			
 
-                            <li className='break'> <b> Garcia, G.P. </b>, C.M. Schumb, M.S. Lavieri, H. Koffijberg, T.W. McAllister, M.A. McCrea, S.P. Broglio, (2022) "Developing Insights for Possible and Probable Acute Concussions Using Cluster Analysis", <i>&nbsp; Journal of Neurotrauma</i> 39 (1-2), 102-113. &nbsp;
+                            <li className='break'> Liao, C.-Y., <b>G.P. Garcia</b>, C. DiGennaro, M.S. Jalali, (2022) "Racial Disparities in Opioid Overdose Deaths in Massachusetts",<i>&nbsp; JAMA Network Open</i>, 5(4), e229081.
+                            <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.1001/jamanetworkopen.2022.9081"> https://doi.org/10.1001/jamanetworkopen.2022.9081</a></li>
+
+                            <li className='break'> <b> Garcia, G.P. </b>, C.M. Schumb, M.S. Lavieri, H. Koffijberg, T.W. McAllister, M.A. McCrea, S.P. Broglio, (2022) "Developing Insights for Possible and Probable Acute Concussions Using Cluster Analysis", <i>&nbsp; Journal of Neurotrauma</i>, 39 (1-2), 102-113. &nbsp;
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.1089/neu.2020.7399">https://doi.org/10.1089/neu.2020.7399</a></li>
 
-                            <li className='break'> DiGenarro, C., <b>G.P. Garcia</b>, E.J. Stringfellow, M.S. Jalali. "Changes in Characteristics of Drug Overdose Death Trends during the COVID-19", (2021) <i>&nbsp; International Journal of Drug Policy</i>, 98 (<i>Accepted</i>)&nbsp; 
+                            <li className='break'> DiGenarro, C., <b>G.P. Garcia</b>, E.J. Stringfellow, M.S. Jalali. "Changes in Characteristics of Drug Overdose Death Trends during the COVID-19", (2021) <i>&nbsp; International Journal of Drug Policy</i>, 98 (<i>Accepted</i>).&nbsp; 
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.1016/j.drugpo.2021.103392">https://doi.org/10.1016/j.drugpo.2021.103392</a></li>
 
                             <li className='break'> Czerniak, L.L., S.W. Liebel, <b>G.P. Garcia</b>, M.S. Lavieri, M.A. McCrea, T.W. McAllister, S.P. Broglio, (2021) "Sensitivity and Specificity of Computer-Based Neurocognitive Assessments in Sport-Related Concussion: Findings from the NCAA-DoD CARE Consortium", <i>&nbsp; Sports Medicine</i>, 51 (2), 351-365. &nbsp; 
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.1007/s40279-020-01393-7">https://doi.org/10.1007/s40279-020-01393-7</a></li>
 
-                            <li className='break'> Liebel, S.W., K.L. Van Pelt, <b> G.P. Garcia</b>, L.L. Czerniak, M.A. McCrea, T.W. McAllister, S.P. Broglio, (2020) "The Relationship Between Sport-related Concussion and Sensation-Seeking",<i>&nbsp; International Journal of Molecular Sciences</i> 21 (23), 9097. &nbsp; 
+                            <li className='break'> Liebel, S.W., K.L. Van Pelt, <b> G.P. Garcia</b>, L.L. Czerniak, M.A. McCrea, T.W. McAllister, S.P. Broglio, (2020) "The Relationship Between Sport-related Concussion and Sensation-Seeking",<i>&nbsp; International Journal of Molecular Sciences</i>, 21 (23), 9097. &nbsp; 
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.3390/ijms21239097">https://doi.org/10.3390/ijms21239097</a></li>	
 
                             <li className='break'> <b> Garcia, G.P. </b>, J. Yang, M.S. Lavieri, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators, (2020) "Optimizing the Components of the Sport Concussion Assessment Tool for Acute Concussion Assessment", 
@@ -87,14 +97,11 @@ const Research = () => {
 
                     <h4 className='subtitle fw-bold publication-subtitle'>Submitted and Working Papers</h4>
                         <ol>
-                            <li className='break'><b>Garcia, G.P.</b>, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." (<i>In Preparation</i>)</li> 
+                            <li className='break'><b>Garcia, G.P.</b>, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." (<i>Submitted</i>)</li> 
 
                             <li className='break'> Caccese, J.B., <b>G.P. Garcia</b>, A.P. Kontos, N. Port, K. Valerio, S.P. Broglio, M.A. McCrea, T.W. McAllister, P.F. Pasquina, T.A. Buckley. "Test-Retest Reliability and Efficacy of Individual Symptoms in Concussion Management". (<i>Submitted</i>)</li>
 
-                            <li className='break'> <b>Garcia, G.P.</b>, R. Dehghanpoor, E.J. Stringfellow, M. Gupta, J. Rochelle, E. Mason, T. Pujol, M.S. Jalali. "Identifying Advice-Seekers for Suboxone Use on Reddit via Social Network Characteristics and Suboxone Use Stage". (<i>Submitted</i>) &nbsp;  
-                            <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://scholar.harvard.edu/files/jalali/files/social_network_suboxone_preprint.pdf">https://scholar.harvard.edu/files/jalali/files/social_network_suboxone_preprint.pdf</a></li>
-
-                            <li className='break'> <b> Garcia, G.P. </b>, M.S. Lavieri, T.W. McAllister, M.A. McCrea, S.P. Broglio, “Reducing the Price of Naivete in Return-to-play from Sports-related Concussion”. (<i>In Preparation</i>)</li>
+                            <li className='break'> <b> Garcia, G.P. </b>, M.S. Lavieri, T.W. McAllister, M.A. McCrea, S.P. Broglio, “Reducing the Price of Naivete in Return-to-play from Sports-related Concussion”. (<i>Submitted</i>)</li>
 
                             <li className='break'><b> Garcia, G.P. </b>, L.N. Steimle, W.J. Marrero. "An Analysis of Structured Optimal Policies for Hypertension Treatment Planning: The Tradeoff Between Optimality and Interpretability." (<i>Under Revision</i>) &nbsp; 
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="http://www.optimization-online.org/DB_HTML/2021/08/8539.html">http://www.optimization-online.org/DB_HTML/2021/08/8539.html</a> 
@@ -102,7 +109,7 @@ const Research = () => {
 
                             <li className='break'><b> Garcia, G.P. </b>, M.S. Lavieri, S.W. Liebel, K. Van Pelt, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators. "Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data." (<i>Working Paper</i>)</li>
 
-                            <li className='break'>Czerniak, L. L., S. W. Liebel, H. Zhou, <b>G.P. Garcia</b>, M. S. Lavieri, M. A. McCrea, T. W. McAllister, S. P. Broglio, and CARE Consortium Investigators (2021). "Sensitivity and Specificity of the ImPACT Neurocognitive Test in Collegiate Athletes and United States Military Cadets with ADHD and/or LD: Findings from the NCAA-DoD CARE Consortium". (<i>In Preparation</i>)</li>
+                            <li className='break'>Czerniak, L. L., S. W. Liebel, H. Zhou, <b>G.P. Garcia</b>, M. S. Lavieri, M. A. McCrea, T. W. McAllister, S. P. Broglio, and CARE Consortium Investigators (2021). "Sensitivity and Specificity of the ImPACT Neurocognitive Test in Collegiate Athletes and United States Military Cadets with ADHD and/or LD: Findings from the NCAA-DoD CARE Consortium". (<i>Under Revision</i>)</li>
                         </ol>
                     </section>
                     <h2 className='page-title text-center mt-50'>Other Research</h2>
