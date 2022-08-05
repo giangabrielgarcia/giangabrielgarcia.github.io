@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.108aed18.css",
-    "main.js": "/static/js/main.1ba2584c.js",
+    "main.js": "/static/js/main.dff84907.js",
     "static/media/singh-headshot.jpg": "/static/media/singh-headshot.1d4e5584b1d0eb6eb808.jpg",
     "static/media/tripathy-headshot.jpg": "/static/media/tripathy-headshot.3a70d666541203f126cf.jpg",
     "static/media/garcia-headshot.jpg": "/static/media/garcia-headshot.4d7c3da3f8b41bf59622.jpg",
@@ -9,6 +9,7 @@
     "static/media/2020-datadrivenstochastic.pdf": "/static/media/2020-datadrivenstochastic.649905bba7462861799a.pdf",
     "static/media/preprint-monotonepolicies.pdf": "/static/media/preprint-monotonepolicies.61e7404d3532dfe287c2.pdf",
     "static/media/jangda-headshot.jpg": "/static/media/jangda-headshot.bbbef82c57e17a1ea5d3.jpg",
+    "static/media/aguirre-headshot.jpg": "/static/media/aguirre-headshot.50274596452d417b4dc6.jpg",
     "static/media/lee-headshot.jpg": "/static/media/lee-headshot.5f34813cdcc6c4aea13c.jpg",
     "static/media/luo-headshot.jpg": "/static/media/luo-headshot.d456d79623317c41e4f7.jpg",
     "static/media/2018-optimalcoinsurancerates.pdf": "/static/media/2018-optimalcoinsurancerates.b6a35f35e4e11ea98764.pdf",
@@ -19,14 +20,15 @@
     "static/media/concussion-management.jpg": "/static/media/concussion-management.ae095f00b9003126f978.jpg",
     "static/media/2018-quantifyingthevalue.pdf": "/static/media/2018-quantifyingthevalue.d5020f73408cb1f510c3.pdf",
     "static/media/duvvuri-headshot.jpg": "/static/media/duvvuri-headshot.d31158316c661e8f1ea6.jpg",
-    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.fed0a25df445b461e5f9.pdf",
+    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.c92b512c2997195e4269.pdf",
+    "static/media/chen2-headshot.jpg": "/static/media/chen2-headshot.4c76ab0ced62e4c3234d.jpg",
     "static/media/custodio-headshot.jpg": "/static/media/custodio-headshot.77f6971e7bf6d540be51.jpg",
     "index.html": "/index.html",
     "main.108aed18.css.map": "/static/css/main.108aed18.css.map",
-    "main.1ba2584c.js.map": "/static/js/main.1ba2584c.js.map"
+    "main.dff84907.js.map": "/static/js/main.dff84907.js.map"
   },
   "entrypoints": [
     "static/css/main.108aed18.css",
-    "static/js/main.1ba2584c.js"
+    "static/js/main.dff84907.js"
   ]
 }
