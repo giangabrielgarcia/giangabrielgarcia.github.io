@@ -23,6 +23,7 @@ const HonorsAwards = () => {
                     <h3 className='page-title'>Selected Institutional Awards</h3>
                     <hr></hr>
                     <ul className='ms-0 ps-0'>
+                        <li className='break'>CIOS Honor Roll: Student Recognition of Excellent in Teaching (2022)</li>
                         <li className='break'>Richard F. and Eleanor A. Towner Prize for Distinguished Academic Achievement (2020)</li>
                         <li className='break'>IOE GSI of the Semester (Winter 2017)</li>
                         <li className='break'>Rackham Merit Fellowships (2015 - 2019)</li>

@@ -8,6 +8,8 @@ import jangda from '../assets/images/jangda-headshot.jpg';
 import luo from '../assets/images/luo-headshot.jpg';
 import gong from '../assets/images/gong-headshot.JPG';
 import duvvuri from '../assets/images/duvvuri-headshot.jpg';
+import aguirre from '../assets/images/aguirre-headshot.jpg';
+import chen from '../assets/images/chen2-headshot.jpg';
 
 const ResearchGroup = () => {
     return (
@@ -46,8 +48,33 @@ const ResearchGroup = () => {
                         <p>I am a first-year PhD student in Operations Research, holding a MS in Operations Research from Columbia University and a BS in Industrial Engineering from Georgia Tech. My research interests are resource allocation problems and fairness in decision making models along with their applications to healthcare. Currently, I am analyzing VA wait time data to identify trends in wait times by type of consultation and location.</p>
                     </div>
                 </div>
-                <h4 className='page-title title-spacer'>Maters and Undergraduate Students</h4>
+                <h4 className='page-title title-spacer'>Masters and Undergraduate Students</h4>
                 <hr></hr>
+                <div className='student-profile'>
+                    <div className='img-container'>
+                        <img src={chen} className='student-headshot' alt='headshot of Xinyu Chen' /> 
+                    </div>
+                    <div>
+                        <h5 className='student-title-center'>Xinyu Chen</h5>
+                        <p>BS in Biomedical Engineering (Expected 2023)</p>
+                        <p>I am a BS student in the Wallace H. Coulter Department of Biomedical Engineering with GT and Emory. My reseasrch interests revolve around optimization, process improvement, analyses, and planning for health system problems. Currently, I'm working on using modeling and data analysis to improve the decision-making for sports-related concussions. </p>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/xinyu-laura-chen-457a50121/">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div className='student-profile'>
+                    <div className='img-container'>
+                        <img src={aguirre} className='student-headshot' alt='headshot of Jacob Aguirre' /> 
+                    </div>
+                    <div>
+                        <h5 className='student-title-center'>Jacob Aguirre</h5>
+                        <p>BS in Economics and Mathematics (Expected 2022), MS in Health Economics (Expected 2023)</p>
+                        <p>I am currently a senior undergraduate at the Georgia Institute of Technology,  pursuing majors in economics and mathematics. My research focuses on mathematical and computational modeling, with applications in predictive medicine algorithms, medical decision-making under uncertainty, spatial-temporal analysis, and health policy. </p>
+                        <a className='reg-link' target='_blank' rel='noopener noreferrer' href="http://jacobaguirre.com/">Personal Site</a>
+                        , <a className='reg-link' target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/in/jacob-aguirre9">LinkedIn</a>
+                    </div>
+                </div>
+                
                 <div className='student-profile'>
                     <div className='img-container'>
                         <img src={gong} className='student-headshot' alt='headshot of Xingyu Gong' /> 

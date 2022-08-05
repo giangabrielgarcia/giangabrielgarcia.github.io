@@ -19,7 +19,8 @@ const Research = () => {
                 <div className='research-text'>
                     <div className='research-para-margin'>
                         <h4 className='subtitle fw-bold'> Interests </h4>
-                        <p>I am interested in designing data-driven frameworks for <b>Predictive Analytics</b> and <b>Prescriptive Analytics</b> as motivated by and applied to high-impact problems in <b>Health Policy, Personalized Medicine,</b> and <b>Medical Decision-Making</b>. This work entails the integration of methodologies from <b>data science, machine learning, stochastic modeling,</b> and <b>stochastic optimization</b>.</p>
+                        <p>I am interested in designing responsible data-driven frameworks for <b>Predictive Analytics</b> and <b>Prescriptive Analytics</b> as motivated by and applied to high-impact problems in <b>Health Policy, Personalized Medicine,</b> and <b>Medical Decision-Making</b>. 
+                        This work entails the integration of methodologies from <b>data science, machine learning, stochastic modeling, simulation,</b> and <b>stochastic optimization</b>.</p>
                     </div>
                     <div className='research-para-margin'>
                         <h4 className='subtitle fw-bold'> Applications </h4>
@@ -27,7 +28,7 @@ const Research = () => {
                     </div>
                     <div>
                         <h4 className='subtitle fw-bold'> Methodology </h4>
-                        <p>Predictive modeling, data-driven optimization, data science, dynamic programming, (partially observable) Markov decision processes, machine learning, stochastic optimization, robust optimization, Kalman filtering, stochastic control, applied statistics, game theory, social network analysis</p>
+                        <p>Predictive modeling, data-driven optimization, data science, dynamic programming, (partially observable) Markov decision processes, machine learning, stochastic optimization, robust optimization, Kalman filtering, stochastic control, applied statistics, game theory, simulation, social network analysis</p>
                     </div>
                 </div>
                 <div className='flex-center'>
@@ -41,7 +42,7 @@ const Research = () => {
                             <li className='break'><b>Garcia, G.P.</b>, R. Dehghanpoor, E. J. Stringfellow, M. Gupta, J. Rochelle, E. Mason, T. Pujol,
                                 M. S. Jalali, (2022) "Identifying and Characterizing Advice-Seekers for Recovery
                                 from Opioid Use Disorder: Social Media Analysis",<i>&nbsp; International Journal of Environmental
-                                Research and Public Health</i>, (Accepted). 
+                                Research and Public Health</i>, 19(10), 6281. 
                                 <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.3390/ijerph19106281"> https://doi.org/10.3390/ijerph19106281</a></li>			
 			
 
@@ -94,22 +95,28 @@ const Research = () => {
                             <li className='break'>Mofrad, M., <b>G.P. Garcia</b>, L.M. Maillart, B.A. Norman, J. Rajgopal, (2016) “Customizing Immunization Clinic Operations to Minimize Open Vial Waste”, <i>&nbsp; Socio-Economic Planning Sciences</i>, 54 (March 2016), 1-17. &nbsp;
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="https://doi.org/10.1016/j.seps.2015.10.007">https://doi.org/10.1016/j.seps.2015.10.007</a></li>	
                         </ol>
-
+                    <h4 className='subtitle fw-bold publication-subtitle'>Peer-reviewed Conference Papers</h4>
+                        <ol>
+                            <li className='break'><b>Garcia, G.P.</b>, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio, and CARE Consortium Investigators. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." <i>Proceedings of the 2022 Winter Simulation Conference</i>, (Accepted)</li> 
+                        </ol>
                     <h4 className='subtitle fw-bold publication-subtitle'>Submitted and Working Papers</h4>
                         <ol>
-                            <li className='break'><b>Garcia, G.P.</b>, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." (<i>Submitted</i>)</li> 
+                            
+                            <li className='break'> <b> Garcia, G.P. </b>, M.S. Lavieri, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators. “Reducing the Price of Naiveté in Return-to-play from Sports-related Concussion”. (<i>Under Revision</i>)</li>
 
-                            <li className='break'> Caccese, J.B., <b>G.P. Garcia</b>, A.P. Kontos, N. Port, K. Valerio, S.P. Broglio, M.A. McCrea, T.W. McAllister, P.F. Pasquina, T.A. Buckley. "Test-Retest Reliability and Efficacy of Individual Symptoms in Concussion Management". (<i>Submitted</i>)</li>
-
-                            <li className='break'> <b> Garcia, G.P. </b>, M.S. Lavieri, T.W. McAllister, M.A. McCrea, S.P. Broglio, “Reducing the Price of Naivete in Return-to-play from Sports-related Concussion”. (<i>Submitted</i>)</li>
-
-                            <li className='break'><b> Garcia, G.P. </b>, L.N. Steimle, W.J. Marrero. "An Analysis of Structured Optimal Policies for Hypertension Treatment Planning: The Tradeoff Between Optimality and Interpretability." (<i>Under Revision</i>) &nbsp; 
+                            <li className='break'><b> Garcia, G.P. </b>, L.N. Steimle, W.J. Marrero, J.B. Sussman. "Interpretable Policies and the Price of Interpretability in Hypertension Treatment Planning." (<i>Under Revision</i>) &nbsp; 
                             <a className='url-link' target='_blank' rel='noopener noreferrer' href="http://www.optimization-online.org/DB_HTML/2021/08/8539.html">http://www.optimization-online.org/DB_HTML/2021/08/8539.html</a> 
                             <a href={manuscript5} className="bi-download download-link" download> </a></li>
 
-                            <li className='break'><b> Garcia, G.P. </b>, M.S. Lavieri, S.W. Liebel, K. Van Pelt, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators. "Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data." (<i>Working Paper</i>)</li>
-
                             <li className='break'>Czerniak, L. L., S. W. Liebel, H. Zhou, <b>G.P. Garcia</b>, M. S. Lavieri, M. A. McCrea, T. W. McAllister, S. P. Broglio, and CARE Consortium Investigators (2021). "Sensitivity and Specificity of the ImPACT Neurocognitive Test in Collegiate Athletes and United States Military Cadets with ADHD and/or LD: Findings from the NCAA-DoD CARE Consortium". (<i>Under Revision</i>)</li>
+                            
+                            <li className='break'> Nori Naga, V., Sundar, S., Garcia, G.P., “Analysis of Machine Learning and Ensemble Methods for Forecasting COVID-19 Cases in California”. (<i>Submitted</i>)</li>
+                            
+                            <li className='break'> Caccese, J.B., <b>G.P. Garcia</b>, A.P. Kontos, N. Port, K. Valerio, S.P. Broglio, M.A. McCrea, T.W. McAllister, P.F. Pasquina, T.A. Buckley. "Test-Retest Reliability and Efficacy of Individual Symptoms in Concussion Management". (<i>Submitted</i>)</li>
+                            
+                            <li className='break'><b> Garcia, G.P. </b>, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators. "Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data." (<i>Working Paper</i>)</li>
+
+                        
                         </ol>
                     </section>
                     <h2 className='page-title text-center mt-50'>Other Research</h2>
