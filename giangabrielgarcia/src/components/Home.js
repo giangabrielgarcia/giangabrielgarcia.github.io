@@ -42,7 +42,8 @@ const Home = () => {
             <p>Prior to joining ISyE, I was a Postdoctoral Research Fellow in the <a className='reg-link' href="https://www.mgh-ita.org/" target='_blank' rel='noopener noreferrer'>Massachusetts General Hospital Institute for Technology Assessment</a> at the Harvard Medical School. 
 		    I obtained my PhD in 2020 and MS in 2016 from the <a className='reg-link' href="https://ioe.engin.umich.edu" target='_blank' rel='noopener noreferrer'>Department of Industrial and Operations Engineering</a> at the University of Michigan
 		    and my BS in Industrial Engineering from the <a  href ="https://www.engineering.pitt.edu/Departments/Industrial/" target='_blank' rel='noopener noreferrer' className='reg-link'>University of Pittsburgh</a> in 2014.</p>
-            <p>In my service efforts, I am interested in increasing diversity, equity, and inclusion in STEM through mentorship and outreach.</p>
+            <p>In my service efforts, I am interested in increasing diversity, equity, and inclusion (DEI) in STEM through mentorship and outreach. 
+                I was selected as an <a className='reg-link' href="https://www.isye.gatech.edu/dei-fellows-program">ISyE DEI Fellow</a> for the 2022-2023 academic year.</p>
          </div>
          </div>
         </div>

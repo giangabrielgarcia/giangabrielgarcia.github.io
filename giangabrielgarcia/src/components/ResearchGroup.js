@@ -36,6 +36,7 @@ const ResearchGroup = () => {
                         <h5 className='student-title-center'>Che-Yi Liao</h5>
                         <p>PhD in Industrial Engineering (Expected 2026)</p>
                         <p>I am PhD student in ISyE at Georgia Tech, holding my Masters' degree in Industrial and Operations Engineering from the University of Michigan and Bachelors in Shipping and Transportation Management from the National Taiwan Ocean University. My primary research interests lie in Healthcare Analytics and Healthcare OR where I apply Predictive Modeling, Spatial-Temporal Modeling, and Simulation to guide medical decision making. I am currently collaborating with Massachusetts General Hospital on predicting and addressing the ongoing opioid crisis.</p>
+                        <a target='_blank' rel='noopener noreferrer' href="https://sites.gatech.edu/che-yi-liao/" className='reg-link'>Personal Website</a>
                     </div>
                 </div>
                 <div className='student-profile'>

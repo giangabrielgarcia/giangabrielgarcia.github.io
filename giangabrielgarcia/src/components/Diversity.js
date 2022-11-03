@@ -20,6 +20,7 @@ const Diversity = () => {
                     <h5 className='subtitle fw-bold'> Diversity Links </h5>
                     <p>The organizations listed below have helped me to grow personally and professionally.<br></br> I am very grateful for the support and opportunities they have presented to me:</p>
                     <ul className='diversity-links'>
+                        <li><a className='reg-link' href = "https://connect.informs.org/minorityissuesforum/home">INFORMS Minority Issues Forum</a></li>
                         <li><a className='reg-link' href="http://femmes.studentorgs.umich.edu/">Females Exceling More in Mathematics, Engineering, and Science (FEMMES)</a></li>
                         <li> IOE Diversity Initiative </li>
                         <li> <a className='reg-link' href="http://www.pittbrotherhood.com"> B.R.O.T.H.E.R.H.O.O.D. </a></li>
