@@ -51,7 +51,7 @@ const peerReviewedPapers = [
 
   { id: 13, text: `G.-G. P. Garcia, M. S. Lavieri, C. Andrews, X. Liu, M. P. Van Oyen, M. A. Kass, M. O. Gordon, and J. D. Stein, (2019). Using Kalman Filtering to Forecast Visual Field and Intraocular Pressure Trajectory in Patients with Ocular Hypertension, `, journal: "JAMA Ophthalmology, 137 (12), 1416-1423. ", link: "https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2755407" }, 
 
-  { id: 14, text: `G.-G. P. Garcia, M.S. Lavieri, R. Jiang, M.A. McCrea, T.W. McAllister, S.P. Broglio, and CARE Consortium Investigators, (2019). A Data-driven Approach to Unlikely, Possible, Probable, and Definite Acute Concussion Assessment, `, journal: "Journal of Neurotrauma, 36 (10), 1571-1583. ", link: "" }, 
+  { id: 14, text: `G.-G. P. Garcia, M.S. Lavieri, R. Jiang, M.A. McCrea, T.W. McAllister, S.P. Broglio, and CARE Consortium Investigators, (2019). A Data-driven Approach to Unlikely, Possible, Probable, and Definite Acute Concussion Assessment, `, journal: "Journal of Neurotrauma, 36 (10), 1571-1583. ", download: {manuscript2} }, 
 
   { id: 15, text: `G.-G. P. Garcia, K. Nitta, M.S. Lavieri, C. Andrews, X. Liu, E. Lobaza, M.P. Van Oyen, K. Sugiyama, and J.D. Stein, (2019). Using Kalman Filtering to Forecast Disease Progression for Patients with Normal Tension Glaucoma, `, journal: "American Journal of Ophthalmology, 199, 111-119. ", link: "https://doi.org/10.1016/j.ajo.2018.10.012" }, 
 
