@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.108aed18.css",
-    "main.js": "/static/js/main.f7f42d15.js",
+    "main.css": "/static/css/main.e9795038.css",
+    "main.js": "/static/js/main.4361124d.js",
     "static/media/singh-headshot.jpg": "/static/media/singh-headshot.1d4e5584b1d0eb6eb808.jpg",
     "static/media/tripathy-headshot.jpg": "/static/media/tripathy-headshot.3a70d666541203f126cf.jpg",
     "static/media/garcia-headshot.jpg": "/static/media/garcia-headshot.4d7c3da3f8b41bf59622.jpg",
+    "static/media/preprint-STEMMED.pdf": "/static/media/preprint-STEMMED.395dfc61459519a5aa39.pdf",
+    "static/media/pandey-headshot.jpeg": "/static/media/pandey-headshot.26a2344eb489a4b22f40.jpeg",
     "static/media/liao-headshot.jpg": "/static/media/liao-headshot.ef451932fc2ce43d6b6d.jpg",
+    "static/media/vivian-headshot.jpg": "/static/media/vivian-headshot.65c99d18c66a4058979f.jpg",
+    "static/media/bugg-headshot.jpeg": "/static/media/bugg-headshot.b887ba9f206612648957.jpeg",
     "static/media/2020-datadrivenstochastic.pdf": "/static/media/2020-datadrivenstochastic.649905bba7462861799a.pdf",
     "static/media/preprint-monotonepolicies.pdf": "/static/media/preprint-monotonepolicies.61e7404d3532dfe287c2.pdf",
     "static/media/jangda-headshot.jpg": "/static/media/jangda-headshot.bbbef82c57e17a1ea5d3.jpg",
@@ -20,15 +24,18 @@
     "static/media/concussion-management.jpg": "/static/media/concussion-management.ae095f00b9003126f978.jpg",
     "static/media/2018-quantifyingthevalue.pdf": "/static/media/2018-quantifyingthevalue.d5020f73408cb1f510c3.pdf",
     "static/media/duvvuri-headshot.jpg": "/static/media/duvvuri-headshot.d31158316c661e8f1ea6.jpg",
-    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.a6a24eb4689a889c260e.pdf",
+    "static/media/mcnealey-headshot.jpeg": "/static/media/mcnealey-headshot.c265bb64c14d8c11780d.jpeg",
+    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.80547d3cb9aeda8f760d.pdf",
+    "static/media/lahijanian-headshot.jpg": "/static/media/lahijanian-headshot.1d547174dd1e69441999.jpg",
     "static/media/chen2-headshot.jpg": "/static/media/chen2-headshot.4c76ab0ced62e4c3234d.jpg",
     "static/media/custodio-headshot.jpg": "/static/media/custodio-headshot.77f6971e7bf6d540be51.jpg",
+    "static/media/whitebox.jpg": "/static/media/whitebox.7e4f885ad7612ffd6b74.jpg",
     "index.html": "/index.html",
-    "main.108aed18.css.map": "/static/css/main.108aed18.css.map",
-    "main.f7f42d15.js.map": "/static/js/main.f7f42d15.js.map"
+    "main.e9795038.css.map": "/static/css/main.e9795038.css.map",
+    "main.4361124d.js.map": "/static/js/main.4361124d.js.map"
   },
   "entrypoints": [
-    "static/css/main.108aed18.css",
-    "static/js/main.f7f42d15.js"
+    "static/css/main.e9795038.css",
+    "static/js/main.4361124d.js"
   ]
 }
