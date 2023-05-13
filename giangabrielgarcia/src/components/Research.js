@@ -6,9 +6,10 @@ import manuscript2 from '../assets/manuscripts/2019-datadrivenapproach.pdf';
 import manuscript3 from '../assets/manuscripts/2018-optimalcoinsurancerates.pdf';
 import manuscript4 from '../assets/manuscripts/2018-quantifyingthevalue.pdf';
 import manuscript5 from '../assets/manuscripts/preprint-monotonepolicies.pdf';
+import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 
 const submittedPapers = [
-  { id: 1, text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2022). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Submitted)` },
+  { id: 1, text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2022). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Submitted)`, link: 'https://arxiv.org/abs/2211.07570', download: {manuscript6} },
 
   { id: 2, text: `S.J. Lee, G.-G. P. Garcia, K. K. Stanhope, M. Platner, and S. L. Boulet, (2022). Interpretable Machine Learning to Predict Adverse Perinatal Outcomes: Examining Marginal Predictive Value of Risk Factors throughout Pregnancy. `, status: "(Submitted)" },
 
