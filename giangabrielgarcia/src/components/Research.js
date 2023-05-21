@@ -13,16 +13,17 @@ const submittedPapers = [
 
   { id: 1, text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2022). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Under revision)`, link: 'https://arxiv.org/abs/2211.07570', download: {manuscript6} },
 
-  { id: 2, text: `S.J. Lee, G.-G. P. Garcia, K. K. Stanhope, M. Platner, and S. L. Boulet, (2022). Interpretable Machine Learning to Predict Adverse Perinatal Outcomes: Examining Marginal Predictive Value of Risk Factors throughout Pregnancy. `, status: "(Submitted)" },
+  { id: 2, text: `S.J. Lee, G.-G. P. Garcia, K. K. Stanhope, M. Platner, and S. L. Boulet, (2022). Interpretable Machine Learning to Predict Adverse Perinatal Outcomes: Examining Marginal Predictive Value of Risk Factors throughout Pregnancy. `, status: "(Under revision)" },
 
   {id: 3, text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2022). Learning Hidden Markov Models with Structured Dynamics. ', status: '(Under revision)'},
-
-  { id: 5, text: `G.-G. P. Garcia , L. N. Steimle, W. J. Marrero, J. B. Sussman. Interpretable Policies and the Price of Interpretability in Hypertension Treatment Planning. `, status: "(Under Revision)", link: "https://optimization-online.org/?p=17279", download: { manuscript5 } },
-  
+ 
    { id: 7, text: `G.-G. P. Garcia , L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators. Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data. `, status: "(Under revision)" }
 ]
 
 const peerReviewedPapers = [
+
+  { id: 21, text: `G.-G. P. Garcia , L. N. Steimle, W. J. Marrero, J. B. Sussman (2023). Interpretable Policies and the Price of Interpretability in Hypertension Treatment Planning. `, journal: "Manufacturing & Service Operations Management. ", status: "(Accepted)", link: "https://optimization-online.org/?p=17279", download: { manuscript5 } },
+
   { id: 20, text: `G.-G. P. Garcia , M. S. Lavieri, T. W. McAllister, M. A. McCrea, S. P. Broglio, and CARE Consortium Investigators (2023). Reducing the Price of Naiveté in Return-to-play from Sports-related Concussion. `, journal: "Production and Operations Management. ", status: "(Accepted)" },
 
   { id: 19, text: `S. W. Liebel, C. G. Turner, A. C. Svirsko, G.-G. P. Garcia, P. F. Pasquina, T. W. McAllister,
