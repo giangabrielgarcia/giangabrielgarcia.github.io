@@ -5,27 +5,30 @@ import manuscript1 from '../assets/manuscripts/2020-datadrivenstochastic.pdf';
 import manuscript2 from '../assets/manuscripts/2019-datadrivenapproach.pdf';
 import manuscript3 from '../assets/manuscripts/2018-optimalcoinsurancerates.pdf';
 import manuscript4 from '../assets/manuscripts/2018-quantifyingthevalue.pdf';
-import manuscript5 from '../assets/manuscripts/preprint-monotonepolicies.pdf';
+import manuscript5 from '../assets/manuscripts/InterpretablePolicies_MSOM.pdf';
 import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 import ms_PoN from '../assets/manuscripts/2023-PriceofNaivete.pdf';
 
 const submittedPapers = [
-  { text: 'X. Gong, S.J. Lee, G.-G. P. Garcia (2023). Analysis of Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes: Impact of State Ordering Rules. ', status: '(Under review)'},
+  {text: 'C.-Y. Liao, E. Keyvanshokooh, and G.-G. P. Garcia (2023). Data-Driven Counterfactual Optimization for Personalized Clinical Decision-Making. ', status: '(Submitted)', link: 'https://optimization-online.org/?p=23949'},
+
+  { text: 'X. Gong, S.J. Lee, G.-G. P. Garcia (2023). Analysis of Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes: Impact of State Ordering Rules. ', status: '(Under review)', link: 'https://optimization-online.org/?p=23723'},
 
   { text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2022). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Under revision)`, link: 'https://arxiv.org/abs/2211.07570', download: manuscript6 },
 
-  { text: `S.J. Lee, G.-G. P. Garcia, K. K. Stanhope, M. Platner, and S. L. Boulet, (2022). Interpretable Machine Learning to Predict Adverse Perinatal Outcomes: Examining Marginal Predictive Value of Risk Factors throughout Pregnancy. `, status: "(Under revision)" },
-
-  {text: 'L. B. Lempke, A. J. Boltz, G.-G. P. Garcia, R. A. Syrydiuk, H. S. Pandey, M. A. McCrea, T. W. McAllister, and S. P. Broglio (2023). Optimizing Baseline and Post-Concussion Assessments Through Factor Structure Analysis: Findings from the NCAA-DoD CARE Consortium', status: '(Under review)'},
+   {text: 'L. B. Lempke, A. J. Boltz, G.-G. P. Garcia, R. A. Syrydiuk, H. S. Pandey, M. A. McCrea, T. W. McAllister, and S. P. Broglio (2023). Optimizing Baseline and Post-Concussion Assessments Through Factor Structure Analysis: Findings from the NCAA-DoD CARE Consortium. ', status: '(Under review)'},
 
   { text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2022). Learning Hidden Markov Models with Structured Dynamics. ', status: '(Under revision)'},
- 
-   { text: `G.-G. P. Garcia , L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators. Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data. `, status: "(Under revision)" }
 ]
 
 const peerReviewedPapers = [
 
-  { id: 21, text: `G.-G. P. Garcia , L. N. Steimle, W. J. Marrero, and J. B. Sussman (2023). Interpretable Policies and the Price of Interpretability in Hypertension Treatment Planning. `, journal: "Manufacturing & Service Operations Management. ", status: "(Accepted)", link: "https://optimization-online.org/?p=17279", download: manuscript5 },
+  {id: 23, text: `G.-G. P. Garcia , L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators (2023). Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data. `, journal: "Sports Medicine", status: ". (Accepted)" },
+
+  {id: 22, text: `S.J. Lee, G.-G. P. Garcia, K. K. Stanhope, M. Platner, and S. L. Boulet, (2023). Interpretable Machine Learning to Predict Adverse Perinatal Outcomes: Examining Marginal Predictive Value of Risk Factors throughout Pregnancy. `, journal: 'American Journal of Obstetrics & Gynecology - MFM', issue: ", 5(10).", link: 'https://doi.org/10.1016/j.ajogmf.2023.101096' },
+
+
+  { id: 21, text: `G.-G. P. Garcia , L. N. Steimle, W. J. Marrero, and J. B. Sussman (2023). Interpretable Policies and the Price of Interpretability in Hypertension Treatment Planning. `, journal: "Manufacturing & Service Operations Management. ", status: "(Accepted)", link: "https://doi.org/10.1287/msom.2021.0373", download: manuscript5 },
 
   { id: 20, text: `G.-G. P. Garcia , M. S. Lavieri, T. W. McAllister, M. A. McCrea, S. P. Broglio, and CARE Consortium Investigators (2023). Reducing the Price of Naiveté in Return-to-play from Sports-related Concussion. `, journal: "Production and Operations Management. ", status: "(Accepted)",
   link: 'https://doi.org/10.1111/poms.14024', download: ms_PoN },
@@ -77,6 +80,12 @@ const conferencePapers = [
   { id: 1, text: `G.-G. P. Garcia, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio, and CARE Consortium Investigators. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." 2022 Winter Simulation Conference (WSC), Singapore, 2022, pp. 1021-1032.`, link: "https://doi.org/10.1109/WSC57314.2022.10015285" }
 ]
 
+const bookChapters = [
+  {id: 1, text: 'A. K. McNealey, W. J. Marrero, L. N. Steimle, and G.-G. P. Garcia (2023). “Optimization Methods for Interpretable Treatment and Screening”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, New York ', status: '(Forthcoming)'},
+
+  {id: 2, text: 'S. J. Lee, H. S. Pandey, and G.-G. P. Garcia (2023). “Designing Interpretable Machine Learning Models Using Mixed Integer Programming”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, New York ', status: '(Forthcoming)'}
+]
+
 const Research = () => {
   return (
     <div className='body-container'> 
@@ -110,6 +119,17 @@ const Research = () => {
           <hr></hr>
           <section>
             <h2 className='page-title text-center mt-50'>Publications</h2>
+            <h4 className='subtitle fw-bold publication-subtitle'>Book Chapters</h4>
+              <ol>
+              { bookChapters.map((pubs) => {
+              return (
+                <li className='break'>{pubs.text}<b>{pubs.book}</b>{pubs.ed}{pubs.publisher}<i>{pubs.status}</i>
+                <a className='url-link' target='_blank' rel='noopener noreferrer' href={pubs.link}> {pubs.link}</a>
+                { pubs.download != null && <a href={pubs.download} className="bi-download download-link" download> </a> }
+                </li> 
+              )})} 
+              </ol>
+            
             <h4 className='subtitle fw-bold publication-subtitle'>Submitted Papers and Pre-prints</h4>
             <ol>
             { submittedPapers.map((pubs) => {
@@ -134,7 +154,7 @@ const Research = () => {
               <ol>
               { conferencePapers.map((pubs) => {
               return (
-                <li className='break'>{pubs.text}<i>{pubs.journal}</i><i>{pubs.status}</i>
+                <li className='break'>{pubs.text}<b>{pubs.journal}</b><i>{pubs.status}</i>
                 <a className='url-link' target='_blank' rel='noopener noreferrer' href={pubs.link}> {pubs.link}</a>
                 { pubs.download != null && <a href={pubs.download} className="bi-download download-link" download> </a> }
                 </li> 
