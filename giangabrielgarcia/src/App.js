@@ -10,6 +10,7 @@ import HonorsAwards from './components/HonorsAwards';
 import Diversity from './components/Diversity';
 import Footer from './components/header-components/Footer';
 import Header from './components/header-components/Header';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/research-group' element={<ResearchGroup />} />
         <Route path='/honors-awards' element={<HonorsAwards />} />
         <Route path='/diversity' element={<Diversity />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
       </Routes> 
     </BrowserRouter>
     <Footer />

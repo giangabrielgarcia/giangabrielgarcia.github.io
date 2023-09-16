@@ -39,6 +39,21 @@ footer {
   align-items: center;
   justify-content: center;
 }
+/* privacy policy */
+.privacy-policy {
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgb(91, 88, 88);
+}
+.privacy-title {
+  font-size: 25px;
+}
+.privacy-policy-headings {
+  margin-top: 45px;
+}
+li.bullet-points {
+  list-style:disc;
+}
 /* this keeps footer at the bottom (in combination with body-container) */
 .footer-pin {
   position: relative;
@@ -121,7 +136,6 @@ ol {
   color: black;
   white-space: nowrap;
   margin-top: 10px;
-  /* margin-right: 30px; */
 }
 
 .name-title.active {
@@ -252,28 +266,6 @@ p {
   color: black;
 }
 
-/* CV */
-/* object {
-  width: 100vw;
-  margin-left: 0px;
-  margin-right: 0px;
-} */
-
-/* #center-pdf {
-  display: flex;
-  justify-content: center;
-  padding: 0px 10px;
-} */
-
-/* #document{
-  position: relative;
-  padding: 20px;
-  width: 100%;
-}
-
-#pdf {
-width: 300;
-} */
 
 /* research page */
 .carousel-container {
@@ -322,16 +314,9 @@ width: 300;
   line-height: 35px;
 }
 
-/* diversity */
-/* .border {
-  border: 1px solid black;
-} */
-
 .border-style {
   padding: 20px;
-  /* margin: 20px 0; */
   border-radius: 8px;
   border-left: 4mm ridge rgba(50, 115, 220, 0.6);
   background-color: aliceblue;
 }
-
