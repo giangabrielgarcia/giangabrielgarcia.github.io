@@ -29,7 +29,7 @@ const phdStudents = [
     {
         name: 'Che-Yi Liao', degree: 'PhD in Machine Learning (Expected 2026)', coadvisor: 'Kamran Paynabar',
         bio: `I am PhD student in ISyE at Georgia Tech, holding my Masters' degree in Industrial and Operations Engineering from the University of Michigan and Bachelors in Shipping and Transportation Management from the National Taiwan Ocean University. My primary research interests lie in Healthcare Analytics and Healthcare OR where I apply Predictive Modeling, Spatial-Temporal Modeling, and Simulation to guide medical decision making. I am currently collaborating with Massachusetts General Hospital on predicting and addressing the ongoing opioid crisis.`,
-        awards: ['First Prize, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)', 'ISyE George Family Fellowship (2022)'], photo: liao, personalSite: 'https://sites.gatech.edu/che-yi-liao/'
+        awards: ['Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2023)','First Prize, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)', 'ISyE George Family Fellowship (2022, 2023)'], photo: liao, personalSite: 'https://sites.gatech.edu/che-yi-liao/'
         
     },
 
@@ -40,17 +40,15 @@ const phdStudents = [
 
     {
         name: 'Amaya McNealey', degree: 'PhD in Industrial Engineering (Expected 2026)', coadvisor: 'Lauren Steimle', 
-        bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my B.S. in Industrial and Systems Engineering from North Carolina A&T State University. My research interests are primarily related to health policy applications along with social determinants of health. I am especially interested in equity and fairness in Machine Learning algorithms along with methods to ensure interpretability.', photo: mcnealey, linkedin: "https://www.linkedin.com/in/amaya-mcnealey-a90247170/"
+        bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my B.S. in Industrial and Systems Engineering from North Carolina A&T State University. My research interests are primarily related to health policy applications along with social determinants of health. I am especially interested in equity and fairness in Machine Learning algorithms along with methods to ensure interpretability.', photo: mcnealey, linkedin: "https://www.linkedin.com/in/amaya-mcnealey-a90247170/",
+        awards: ['ISyE George Family Fellowship (2023)']
     },
 
     {
         name: 'Himadri Pandey', degree: 'PhD in Industrial Engineering (Expected 2027)', photo: pandey, bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my BS in Computer Science, with a minor in Mathematics and Physics, from the University of Cincinnati. My research interests include the application of Machine Learning to healthcare optimization problems. My current project involves concussion diagnosis under time constraints.', linkedin: "https://www.linkedin.com/in/himadri-s-pandey/"
-    },
+    }
     
-    {
-      name: 'Jacob Aguirre', degree: 'PhD in Operations Research (Expected 2028)', coadvisor: 'Turgay Ayer',
-      bio: 'I am a PhD student in Operations Research at the Georgia Institute of Technology. My research focuses on mathematical and computational modeling, with applications in predictive medicine algorithms, medical decision-making under uncertainty, spatial-temporal analysis, and health policy.', personalSite: "http://jacobaguirre.com/", linkedin: "https://www.linkedin.com/in/jacob-aguirre9", photo: aguirre, awards: ['NSF Graduate Research Fellowship (2023)', 'GEM PhD Fellowship (2022)', 'DOE Computational Science Graduate Fellowship (2023)']
-  }
+    
 ]
 
 const postDocs = [
@@ -84,7 +82,12 @@ const undergradMS = [
 ]
 
 const alumni = [
-  {
+    {
+        name: 'Jacob Aguirre', degree: 'PhD in Operations Research (Expected 2028)', coadvisor: 'Turgay Ayer',
+        bio: 'I am a PhD student in Operations Research at the Georgia Institute of Technology. My research focuses on mathematical and computational modeling, with applications in predictive medicine algorithms, medical decision-making under uncertainty, spatial-temporal analysis, and health policy.', personalSite: "http://jacobaguirre.com/", linkedin: "https://www.linkedin.com/in/jacob-aguirre9", photo: aguirre, awards: ['NSF Graduate Research Fellowship (2023)', 'GEM PhD Fellowship (2022)', 'DOE Computational Science Graduate Fellowship (2023)'], currentposition: 'PhD in Operations Research, Georgia Tech'
+    },
+  
+    {
     name: 'Xinyu Chen', degree: 'BS in Biomedical Engineering (Graduated 2023)', bio: `I am a BS student in the Wallace H. Coulter Department of Biomedical Engineering with GT and Emory. My reseasrch interests revolve around optimization, process improvement, analyses, and planning for health system problems. Currently, I'm working on using modeling and data analysis to improve the decision-making for sports-related concussions.`, linkedin: "https://www.linkedin.com/in/xinyu-laura-chen-457a50121/", photo: chen, currentposition: 'MS in Biomedical Informatics, Harvard University'
 
   },

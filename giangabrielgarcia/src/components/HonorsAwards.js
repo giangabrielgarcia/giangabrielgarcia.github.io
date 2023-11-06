@@ -9,6 +9,9 @@ const HonorsAwards = () => {
                     <h3 className='page-title'>National and International Awards</h3>
                     <hr></hr>
                     <ul className='ms-0 ps-0 mb-50'>
+                        <li className='break'><i className='bi-award h5'/> &nbsp; Finalist, Society for Medical Decision Making Lee B. Lusted Prize in <i>QMTD</i> (2023)  <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Awarded to PhD student Che-Yi Liao for joint work</i></p>  </li>
+                        
+                        
                         <li className='break'><i className='bi-award h5'/> &nbsp; First Prize, Society for Medical Decision Making Lee B. Lusted Prize in <i>QMTD</i> (2022)  <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Awarded to PhD student Che-Yi Liao for joint work</i></p>  </li>
                         
                         <li className='break'><i className='bi-award h5'/> &nbsp; Finalist, Society for Medical Decision Making Lee B. Lusted Prize in <i>QMTD</i> (2022)  <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Awarded to PhD student Sun Ju Lee for joint work</i></p>  </li>

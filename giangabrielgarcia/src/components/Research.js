@@ -16,25 +16,24 @@ const submittedPapers = [
 
   { text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2022). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Under revision)`, link: 'https://arxiv.org/abs/2211.07570', download: manuscript6 },
 
-   {text: 'L. B. Lempke, A. J. Boltz, G.-G. P. Garcia, R. A. Syrydiuk, H. S. Pandey, M. A. McCrea, T. W. McAllister, and S. P. Broglio (2023). Optimizing Baseline and Post-Concussion Assessments Through Factor Structure Analysis: Findings from the NCAA-DoD CARE Consortium. ', status: '(Under review)'},
-
   { text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2022). Learning Hidden Markov Models with Structured Dynamics. ', status: '(Under revision)'},
 ]
 
 const peerReviewedPapers = [
+  {text: 'L. B. Lempke, A. J. Boltz, G.-G. P. Garcia, R. A. Syrydiuk, H. S. Pandey, M. A. McCrea, T. W. McAllister, and S. P. Broglio (2023). Optimizing Baseline and Post-Concussion Assessments Through Factor Structure Analysis: Findings from the NCAA-DoD CARE Consortium. ', journal: 'The Clinical Neuropsychologist. ', status: '(Accepted)', link: 'https://doi.org/10.1080/13854046.2023.2271614'},
 
-  {id: 23, text: `G.-G. P. Garcia , L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators (2023). Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data. `, journal: "Sports Medicine", status: ". (Accepted)" },
+  {id: 23, text: `G.-G. P. Garcia , L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators (2023). Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data. `, journal: "Sports Medicine. ", status: "(Accepted)", link: 'https://doi.org/10.1007/s40279-023-01901-5' },
 
   {id: 22, text: `S.J. Lee, G.-G. P. Garcia, K. K. Stanhope, M. Platner, and S. L. Boulet, (2023). Interpretable Machine Learning to Predict Adverse Perinatal Outcomes: Examining Marginal Predictive Value of Risk Factors throughout Pregnancy. `, journal: 'American Journal of Obstetrics & Gynecology - MFM', issue: ", 5(10).", link: 'https://doi.org/10.1016/j.ajogmf.2023.101096' },
 
 
   { id: 21, text: `G.-G. P. Garcia , L. N. Steimle, W. J. Marrero, and J. B. Sussman (2023). Interpretable Policies and the Price of Interpretability in Hypertension Treatment Planning. `, journal: "Manufacturing & Service Operations Management. ", status: "(Accepted)", link: "https://doi.org/10.1287/msom.2021.0373", download: manuscript5 },
 
-  { id: 20, text: `G.-G. P. Garcia , M. S. Lavieri, T. W. McAllister, M. A. McCrea, S. P. Broglio, and CARE Consortium Investigators (2023). Reducing the Price of Naiveté in Return-to-play from Sports-related Concussion. `, journal: "Production and Operations Management. ", status: "(Accepted)",
+  { id: 20, text: `G.-G. P. Garcia , M. S. Lavieri, T. W. McAllister, M. A. McCrea, S. P. Broglio, and CARE Consortium Investigators (2023). Reducing the Price of Naiveté in Return-to-play from Sports-related Concussion. `, journal: "Production and Operations Management", issue: ", 32, 3081-3099. ",
   link: 'https://doi.org/10.1111/poms.14024', download: ms_PoN },
 
   { id: 19, text: `S. W. Liebel, C. G. Turner, A. C. Svirsko, G.-G. P. Garcia, P. F. Pasquina, T. W. McAllister,
-  M. A. McCrea, S. P. Broglio, and CARE Consortium Investigators (2023). Temporal Network Architectures of Neurocognitive Functioning and Psychological Symptoms in Collegiate Athletes Following Sport-related Concussion: A CARE Consortium Investigation. `, journal: "Journal of Neurotrauma. ", status: "(Accepted)", link: 'https://doi.org/10.1089/neu.2022.0431' },
+  M. A. McCrea, S. P. Broglio, and CARE Consortium Investigators (2023). Temporal Network Architectures of Neurocognitive Functioning and Psychological Symptoms in Collegiate Athletes Following Sport-related Concussion: A CARE Consortium Investigation. `, journal: "Journal of Neurotrauma", issue: ", 40 (15-16), 1684-1693. ", link: 'https://doi.org/10.1089/neu.2022.0431' },
   
   { id: 18, text: `K. E. Nolan, J. B. Caccese, A. P. Kontos, T. A. Buckley, G.-G. P. Garcia, N. Port, S. P. Broglio, T. W. McAllister, M. A. McCrea, P. F. Pasquina, J. P. Hayes, and CARE Consortium Investigators (2023). Primary and Secondary Risk Factors Associated with Concussion Symptom Clusters in Collegiate Athletes: Results from the NCAA-DoD Grand Alliance CARE Consortium, `, journal: "The Orthopaedic Journal of Sports Medicine", issue: ", 11(4). ", link: 'https://doi.org/10.1177%2F23259671231163581' },
 
@@ -81,9 +80,9 @@ const conferencePapers = [
 ]
 
 const bookChapters = [
-  {id: 1, text: 'A. K. McNealey, W. J. Marrero, L. N. Steimle, and G.-G. P. Garcia (2023). “Optimization Methods for Interpretable Treatment and Screening”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, New York ', status: '(Forthcoming)'},
+  {id: 1, text: 'A. K. McNealey, W. J. Marrero, L. N. Steimle, and G.-G. P. Garcia (2023). “Optimization Methods for Interpretable Treatment and Screening”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, Cham ', link: 'https://doi.org/10.1007/978-3-030-54621-2_866-1'},
 
-  {id: 2, text: 'S. J. Lee, H. S. Pandey, and G.-G. P. Garcia (2023). “Designing Interpretable Machine Learning Models Using Mixed Integer Programming”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, New York ', status: '(Forthcoming)'}
+  {id: 2, text: 'S. J. Lee, H. S. Pandey, and G.-G. P. Garcia (2023). “Designing Interpretable Machine Learning Models Using Mixed Integer Programming”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, Cham ', status: '(Forthcoming)'}
 ]
 
 const Research = () => {
@@ -97,20 +96,21 @@ const Research = () => {
           <div className='research-text'>
             <div className='research-para-margin'>
                 <h4 className='subtitle fw-bold'> Interests </h4>
-                <p>I am interested in designing responsible data-driven frameworks for <b>Predictive Analytics</b> and <b>Prescriptive Analytics</b> as motivated by and applied to high-impact problems in <b>Health Policy, Personalized Medicine,</b> and <b>Medical Decision-Making</b>. 
-                This work entails the integration of methodologies from <b>data science, machine learning, stochastic modeling, simulation,</b> and <b>stochastic optimization</b>.</p>
+      
+                <p>I am interested in the design, analysis, and optimization of data-driven frameworks at the intersection of <b>Predictive Analytics</b> and <b>Prescriptive Analytics</b> as motivated by high-impact problems in <b>Medical Decision-Making</b> and <b>Health Policy</b>. My recent work emphasizes the principles of responsible AI, including <b>interpretability, equity,</b> and <b>robustness</b>. 
+                This work entails the integration of methodologies from <b>operations research</b> and <b>machine learning</b>.</p>
             </div>
           </div>
           <div className='research-text'>
             <div className='research-para-margin'>
                 <h4 className='subtitle fw-bold'> Applications </h4>
-                <p>Medical decision-making, health policy, concussion management, opioid overdose, maternal health, chronic disease management</p>
+                <p>Medical decision-making, health policy, concussion management, chronic disease management, opioid overdose, maternal health</p>
             </div>
           </div>
           <div className='research-text'>
             <div>
                 <h4 className='subtitle fw-bold'> Methodology </h4>
-                <p>Predictive modeling, data-driven optimization, data science, dynamic programming, (partially observable) Markov decision processes, machine learning, stochastic optimization, robust optimization, Kalman filtering, stochastic control, applied statistics, game theory, simulation</p>
+                <p>Predictive modeling, data-driven optimization, data science, dynamic programming, (partially observable) Markov decision processes, machine learning, stochastic optimization, robust optimization, applied statistics, simulation</p>
             </div>
           </div>
           <div className='flex-center'>
@@ -161,6 +161,9 @@ const Research = () => {
               )})} 
               </ol>
             </section>
+            <h2 className='page-title text-center mt-50'>Grants</h2>
+                <p>Please see my <a className='reg-link' href={cv}>CV</a> for a complete list of my grants and funded projects.</p>
+
             <h2 className='page-title text-center mt-50'>Other Research</h2>
                 <a className='reg-link' target='_blank' rel='noopener noreferrer' href="http://www.pitt.edu/~vacro">VaCRO: Vaccine Clinic Reconstitution Optimizer</a>
       </div>
