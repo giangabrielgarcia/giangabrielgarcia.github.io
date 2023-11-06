@@ -83,7 +83,7 @@ const undergradMS = [
 
 const alumni = [
     {
-        name: 'Jacob Aguirre', degree: 'BS in Economics, Mathematics (2022), MS in Economics (2023)',
+        name: 'Jacob Aguirre', degree: 'BS in Economics, Mathematics (Graduated 2022), MS in Economics (Graduated 2023)',
         bio: 'I am a PhD student in Operations Research at the Georgia Institute of Technology. My research focuses on mathematical and computational modeling, with applications in predictive medicine algorithms, medical decision-making under uncertainty, spatial-temporal analysis, and health policy.', personalSite: "http://jacobaguirre.com/", linkedin: "https://www.linkedin.com/in/jacob-aguirre9", photo: aguirre, awards: ['NSF Graduate Research Fellowship (2023)', 'GEM PhD Fellowship (2022)', 'DOE Computational Science Graduate Fellowship (2023)'], currentposition: 'PhD in Operations Research, Georgia Tech'
     },
   
