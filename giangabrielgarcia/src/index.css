@@ -211,22 +211,34 @@ ol {
   text-align: center;
 }
 
-/* hamburger button */
-.hamburger {
+ /* hamburger button */
+ .hamburger {
   position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 25px;
+  top: 43px;
+  right: 40px;
+  width: 35px; 
+  height: 25px;
 }
-
+.hamburger:hover {
+  cursor: pointer;
+}
 .hamburger .bar {
-  height: 3.5px;
+  height: 6px; 
   background-color: var(--special-text);
-  margin-bottom: 4px;
+  margin-bottom: 5px;
+  transition: 0.4s;
 }
 
-.bar.active {
-  text-decoration: none;
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
 }
 
 /* homepage - about */
