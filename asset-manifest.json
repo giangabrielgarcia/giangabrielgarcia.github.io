@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.21a90998.css",
-    "main.js": "/static/js/main.c6a4107c.js",
+    "main.js": "/static/js/main.6ba95c55.js",
     "static/media/tripathy-headshot.jpg": "/static/media/tripathy-headshot.3a70d666541203f126cf.jpg",
     "static/media/garcia-headshot.jpg": "/static/media/garcia-headshot.4d7c3da3f8b41bf59622.jpg",
     "static/media/preprint-STEMMED.pdf": "/static/media/preprint-STEMMED.395dfc61459519a5aa39.pdf",
@@ -23,16 +23,16 @@
     "static/media/2018-quantifyingthevalue.pdf": "/static/media/2018-quantifyingthevalue.d5020f73408cb1f510c3.pdf",
     "static/media/duvvuri-headshot.jpg": "/static/media/duvvuri-headshot.d31158316c661e8f1ea6.jpg",
     "static/media/mcnealey-headshot.jpeg": "/static/media/mcnealey-headshot.c265bb64c14d8c11780d.jpeg",
-    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.a3464ce9c261060783eb.pdf",
+    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.12566e85da3aea14a545.pdf",
     "static/media/lahijanian-headshot.jpg": "/static/media/lahijanian-headshot.1d547174dd1e69441999.jpg",
     "static/media/chen2-headshot.jpg": "/static/media/chen2-headshot.4c76ab0ced62e4c3234d.jpg",
     "static/media/whitebox.jpg": "/static/media/whitebox.5e3fe6e8531b59b5cf98.jpg",
     "index.html": "/index.html",
     "main.21a90998.css.map": "/static/css/main.21a90998.css.map",
-    "main.c6a4107c.js.map": "/static/js/main.c6a4107c.js.map"
+    "main.6ba95c55.js.map": "/static/js/main.6ba95c55.js.map"
   },
   "entrypoints": [
     "static/css/main.21a90998.css",
-    "static/js/main.c6a4107c.js"
+    "static/js/main.6ba95c55.js"
   ]
 }
