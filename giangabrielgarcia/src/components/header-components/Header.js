@@ -54,11 +54,11 @@ const Header = () => {
           </Link>
         </h1>
         {largeScreen ? <Navbar /> : 
-            <NavLink to="#" className="hamburger" onClick={handleButtonClick}>
+            <Link to="#" className={`hamburger ${toggle ? 'active' : ''}`} onClick={handleButtonClick}>
               <div className="bar"></div>
               <div className="bar"></div>
               <div className="bar"></div>
-            </NavLink>
+            </Link>
         }
       </nav>
 
