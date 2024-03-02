@@ -17,11 +17,13 @@ import mcnealey from '../assets/images/mcnealey-headshot.jpeg';
 import vivian from '../assets/images/vivian-headshot.jpg';
 import pandey from '../assets/images/pandey-headshot.jpeg';
 import bugg from '../assets/images/bugg-headshot.jpeg';
+import grodzinsky from '../assets/images/grodzinsky-headshot.jpg';
+import yixuan from '../assets/images/yixuan-headshot.jpg';
 
 
 const phdStudents = [
     {
-        name: 'Sun Ju Lee', degree: 'PhD in Operations Research (Expected 2024)', 
+        name: 'Sun Ju Lee', degree: 'PhD in Operations Research (Expected 2025)', 
         bio: 'I am a PhD student in Operations Research at the H. Milton Stewart School of Industrial and Systems Engineering. I received my BE and BA in Engineering Sciences with a concentration in Mechanical Engineering from Dartmouth College. My research interests lie broadly in problems motivated by health modeling and health policy applications. I am especially interested in equitable solutions to medical decision-making problems and interpretable machine learning algorithms in healthcare. Currently, I am working on personalized optimal prenatal care scheduling.', 
         awards: ['Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)'], personalSite: "https://sjulee.github.io/", photo: lee
     },
@@ -29,7 +31,7 @@ const phdStudents = [
     {
         name: 'Che-Yi Liao', degree: 'PhD in Machine Learning (Expected 2026)', coadvisor: 'Kamran Paynabar',
         bio: `I am PhD student in ISyE at Georgia Tech, holding my Masters' degree in Industrial and Operations Engineering from the University of Michigan and Bachelors in Shipping and Transportation Management from the National Taiwan Ocean University. My primary research interests lie in Healthcare Analytics and Healthcare OR where I apply Predictive Modeling, Spatial-Temporal Modeling, and Simulation to guide medical decision making. I am currently collaborating with Massachusetts General Hospital on predicting and addressing the ongoing opioid crisis.`,
-        awards: ['Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2023)','First Prize, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)', 'ISyE George Family Fellowship (2022, 2023)'], photo: liao, personalSite: 'https://sites.gatech.edu/che-yi-liao/'
+        awards: ['Thos and Clair Muller Research Fellowship in Health Analytics and Health Systems (2023)', 'Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2023)','First Prize, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)', 'ISyE George Family Fellowship (2022, 2023)'], photo: liao, personalSite: 'https://sites.gatech.edu/che-yi-liao/'
         
     },
 
@@ -39,7 +41,7 @@ const phdStudents = [
     // },
 
     {
-        name: 'Amaya McNealey', degree: 'PhD in Industrial Engineering (Expected 2026)', coadvisor: 'Lauren Steimle', 
+        name: 'Amaya McNealey', degree: 'PhD in Industrial Engineering (Expected 2027)', coadvisor: 'Lauren Steimle', 
         bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my B.S. in Industrial and Systems Engineering from North Carolina A&T State University. My research interests are primarily related to health policy applications along with social determinants of health. I am especially interested in equity and fairness in Machine Learning algorithms along with methods to ensure interpretability.', photo: mcnealey, linkedin: "https://www.linkedin.com/in/amaya-mcnealey-a90247170/",
         awards: ['ISyE George Family Fellowship (2023)']
     },
@@ -52,16 +54,21 @@ const phdStudents = [
 ]
 
 const postDocs = [
-    {
-        name: 'Behshad Lahijanian', degree: 'Tennenbaum Postdoctoral Fellow', bio: 'I am a Tennenbaum Postdoctoral Fellow in the H. Milton Stewart School of Industrial and Systems Engineering at Georgia Tech. I earned my Ph.D. degree in Industrial and Systems Engineering from the University of Florida in May 2022, holding my MS and BS in Industrial Engineering from the Amirkabir University of Technology. My research focuses on decision-making by developing methods and algorithms for healthcare systems using Stochastic Programming, Multi-method Simulation, and Machine Learning.', photo: behshad, personalSite: "https://sites.google.com/view/behshadlahijanian/home", linkedin: "https://www.linkedin.com/in/xinyu-laura-chen-457a50121/"
-    },
-
+   
     {
         name: 'Caleb Bugg', degree: 'Thuesen Postdoctoral Fellow', photo: bugg, bio: 'I am a Postdoctoral Fellow in The H. Milton Stewart School of Industrial and Systems Engineering at The Georgia Institute of Technology. I received my BS in mathematics from Morehouse College and my MS and PhD in Operations Research from the University of California, Berkeley. My research seek to discover and implement quantitative methods which have a social-, civic-, and/or government-based applicatons. Utilizing the math and statistical models native to Operations Research and Management, I synthesize topics that provide an analytical basis for our society to invest in long-term, social good projects.', personalSite: 'https://www.calebxb.com/'
     }
 ]
 
 const undergradMS = [
+
+    {
+        name: 'Yixuan Long', degree: 'MS in Operations Research (Expected 2024)', bio: 'I am a Masters student in Operations Research at ISyE and expect to graduate in December 2024. I received my BS in IE, with minors in Computer Science and Economics, from the University of Pittsburgh and BEng in IE from Sichuan University. My research interests involve medical decision-making problems at the intersection between operations research and healthcare. Currently, I am investigating chronic disease resource allocation problems for type 2 diabetes based on related screening and intervention models.', photo: yixuan, linkedin: 'https://www.linkedin.com/in/yixuan-long-570977204'
+    },
+
+    {
+        name: 'Nathan Grodzinsky', degree: 'BS in Industrial & Systems Engineering (Expected 2024)', bio: 'I am a BS student at the H. Milton Stewart School of Industrial and Systems Engineering with a concentration in advanced studies for Operations Research and Statistics. My research interests are broadly focused on applying data analytics and statistical modeling to enhance decision-making within healthcare contexts. Currently, I am involved in a project analyzing Medicaid data to understand maternal morbidity outcomes.', photo: grodzinsky, linkedin: 'https://www.linkedin.com/in/nathang42'
+    },
 
 
     {
@@ -82,6 +89,12 @@ const undergradMS = [
 ]
 
 const alumni = [
+
+    {
+        name: 'Behshad Lahijanian', degree: 'Tennenbaum Postdoctoral Fellow', bio: 'I am a Tennenbaum Postdoctoral Fellow in the H. Milton Stewart School of Industrial and Systems Engineering at Georgia Tech. I earned my Ph.D. degree in Industrial and Systems Engineering from the University of Florida in May 2022, holding my MS and BS in Industrial Engineering from the Amirkabir University of Technology. My research focuses on decision-making by developing methods and algorithms for healthcare systems using Stochastic Programming, Multi-method Simulation, and Machine Learning.', photo: behshad, personalSite: "https://sites.google.com/view/behshadlahijanian/home", linkedin: "https://www.linkedin.com/in/behshad-lahijanian-ph-d-10984585", currentposition: 'Senior Data Scientist at JP Morgan Chase'
+    },
+
+
     {
         name: 'Jacob Aguirre', degree: 'BS in Economics, Mathematics (Graduated 2022), MS in Economics (Graduated 2023)',
         bio: 'I am a PhD student in Operations Research at the Georgia Institute of Technology. My research focuses on mathematical and computational modeling, with applications in predictive medicine algorithms, medical decision-making under uncertainty, spatial-temporal analysis, and health policy.', personalSite: "http://jacobaguirre.com/", linkedin: "https://www.linkedin.com/in/jacob-aguirre9", photo: aguirre, awards: ['NSF Graduate Research Fellowship (2023)', 'GEM PhD Fellowship (2022)', 'DOE Computational Science Graduate Fellowship (2023)'], currentposition: 'PhD in Operations Research, Georgia Tech'

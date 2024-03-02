@@ -293,9 +293,15 @@ p {
 .publication-subtitle {
   margin-top: 50px;
 }
+
+.publication-subtitle-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .download-link {
-  font-size: 22px;
-  margin: 0px 15px;
+  font-size: 18px;
+  margin: 0px 5px;
   color: var(--special-text);
 }
 .download-link:hover {
@@ -331,4 +337,20 @@ p {
   border-radius: 8px;
   border-left: 4mm ridge rgba(50, 115, 220, 0.6);
   background-color: aliceblue;
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+.collapsible-header {
+  color: black;
+  text-decoration: none;
+}
+
+.fa.pull-right {
+  margin: 10px 2px 0px 0px;
 }

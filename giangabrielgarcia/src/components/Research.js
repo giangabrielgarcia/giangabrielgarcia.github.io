@@ -10,6 +10,15 @@ import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 import ms_PoN from '../assets/manuscripts/2023-PriceofNaivete.pdf';
 
 const submittedPapers = [
+  {text: 'A. K. McNealey, M. E. Meredith, G.-G. P. Garcia, S. L. Boulet, K. K. Stanhope, M. H. Platner, and L. N. Steimle (2024). Recommendations for Vaginal Birth after Cesarean Using Historic and Race-Blind Risk Calculators. ', status: '(Submitted)'},
+
+
+  {text: 'Y. Yang, C.-Y. Liao, E. Keyvanshokooh, H. Shao, M. B. Weber, F. Pasquel, and G.-G. P. Garcia (2024). Assessing the Predictive Performance, Explainability, and Fairness of Interpretable Machine Learning Models in Cardiovascular Disease Outcomes among People with Type-2 Diabetes. ', status: '(Submitted)'},
+
+  {text: 'G.-G. P. Garcia, N. Ghaffarzadegan, and M. S. Jalali (2024). Rethinking Optimal Screening Selection Rates for Post-traumatic Stress Disorder: The Impact of Social Stigma. ', status: '(Submitted)', link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4711318'},
+
+  {text: 'G.-G. P. Garcia, E. J. Stringfellow, and M. S. Jalali (2023). Looking Back: COVID-19 and the Drug Overdose Crisis. ', status: '(Submitted)'},
+
   {text: 'C.-Y. Liao, E. Keyvanshokooh, and G.-G. P. Garcia (2023). Data-Driven Counterfactual Optimization for Personalized Clinical Decision-Making. ', status: '(Submitted)', link: 'https://optimization-online.org/?p=23949'},
 
   { text: 'X. Gong, S.J. Lee, G.-G. P. Garcia (2023). Analysis of Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes: Impact of State Ordering Rules. ', status: '(Under review)', link: 'https://optimization-online.org/?p=23723'},
@@ -74,15 +83,15 @@ const peerReviewedPapers = [
 ]
 
 const conferencePapers = [
-  { id: 2, text: `V. Nori Naga, S. Sundar, G.-G. P. Garcia. "Analysis of Machine Learning and Ensemble Methods for Forecasting COVID-19 Cases in California." 2023 IISE Annual Meeting. `, status: "(Accepted)" },
+  { id: 2, text: `V. Nori Naga, S. Sundar, G.-G. P. Garcia. "Analysis of Machine Learning and Ensemble Methods for Forecasting COVID-19 Cases in California." 2023 IISE Annual Meeting, New Orleans, LA, 2023, pp. 91-96. `},
 
   { id: 1, text: `G.-G. P. Garcia, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio, and CARE Consortium Investigators. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." 2022 Winter Simulation Conference (WSC), Singapore, 2022, pp. 1021-1032.`, link: "https://doi.org/10.1109/WSC57314.2022.10015285" }
 ]
 
 const bookChapters = [
-  {id: 1, text: 'A. K. McNealey, W. J. Marrero, L. N. Steimle, and G.-G. P. Garcia (2023). “Optimization Methods for Interpretable Treatment and Screening”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, Cham ', link: 'https://doi.org/10.1007/978-3-030-54621-2_866-1'},
+  {id: 1, text: 'A. K. McNealey, W. J. Marrero, L. N. Steimle, and G.-G. P. Garcia (2023). “Optimization Methods for Interpretable Treatment and Screening”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, Cham. ', link: 'https://doi.org/10.1007/978-3-030-54621-2_866-1'},
 
-  {id: 2, text: 'S. J. Lee, H. S. Pandey, and G.-G. P. Garcia (2023). “Designing Interpretable Machine Learning Models Using Mixed Integer Programming”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, Cham ', status: '(Forthcoming)'}
+  {id: 2, text: 'S. J. Lee, H. S. Pandey, and G.-G. P. Garcia (2023). “Designing Interpretable Machine Learning Models Using Mixed Integer Programming”. In: ', book: 'Encyclopedia of Optimization', ed: '. 3rd ed.', publisher: ' Springer, Cham. ', link: 'https://doi.org/10.1007/978-3-030-54621-2_867-1'}
 ]
 
 const Research = () => {
@@ -118,48 +127,95 @@ const Research = () => {
           </div>
           <hr></hr>
           <section>
-            <h2 className='page-title text-center mt-50'>Publications</h2>
-            <h4 className='subtitle fw-bold publication-subtitle'>Book Chapters</h4>
-              <ol>
-              { bookChapters.map((pubs) => {
-              return (
-                <li className='break'>{pubs.text}<b>{pubs.book}</b>{pubs.ed}{pubs.publisher}<i>{pubs.status}</i>
-                <a className='url-link' target='_blank' rel='noopener noreferrer' href={pubs.link}> {pubs.link}</a>
-                { pubs.download != null && <a href={pubs.download} className="bi-download download-link" download> </a> }
-                </li> 
-              )})} 
-              </ol>
+            <h2 className='page-title text-center mt-50 mb-50'>Publications</h2>
+
+            <div class = 'card mb-50'>
+              <div class = 'card-header'>
+                <a data-toggle="collapse" href="#collapse-bookchapters" aria-expanded="true" aria-controls="collapse-bookchapters" id="heading-bookchapters" class="collapsible-header">
+                  <i class="fa fa-chevron-down pull-right"></i>
+                  <h4 className='subtitle fw-bold publication-subtitle-card'>Book Chapters</h4>
+                </a>
+              </div>
+              <div id="collapse-bookchapters" class="collapse show" aria-labelledby="heading-bookchapters">
+                <div class = 'card-body'>
+                  <ol>
+                  { bookChapters.map((pubs) => {
+                  return (
+                    <li className='break'>{pubs.text}<b>{pubs.book}</b>{pubs.ed}{pubs.publisher}<i>{pubs.status} </i>
+                    { pubs.link != null && <a className='download-link' target='_blank' rel='noopener noreferrer' href={pubs.link}><i class="fa fa-solid fa-link"></i></a> }
+                    { pubs.download != null && <a href={pubs.download} className="download-link" download><i class="fa fa-solid fa-download"></i></a> }
+                    </li> 
+                  )})} 
+                  </ol>
+                </div>
+              </div>
+             </div>
             
-            <h4 className='subtitle fw-bold publication-subtitle'>Submitted Papers and Pre-prints</h4>
-            <ol>
-            { submittedPapers.map((pubs) => {
-            return (
-              <li className='break'>{pubs.text}<i>{pubs.journal}</i><i>{pubs.status}</i>
-              <a className='url-link' target='_blank' rel='noopener noreferrer' href={pubs.link}> {pubs.link}</a>
-              { pubs.download != null && <a href={pubs.download} className="bi-download download-link" download> </a> }
-              </li> 
-            )})} 
-            </ol>
-            <h4 className='subtitle fw-bold publication-subtitle'>Peer-reviewed Journal Papers</h4>
-            <ol>
-            { peerReviewedPapers.map((pubs) => {
-            return (
-              <li className='break'>{pubs.text}<b>{pubs.journal}</b>{pubs.issue}<i>{pubs.status}</i>
-              <a className='url-link' target='_blank' rel='noopener noreferrer' href={pubs.link}> {pubs.link}</a>
-              { pubs.download != null && <a href={pubs.download} className="bi-download download-link" download> </a> }
-              </li> 
-            )})} 
-            </ol>
-            <h4 className='subtitle fw-bold publication-subtitle'>Peer-reviewed Conference Papers</h4>
-              <ol>
-              { conferencePapers.map((pubs) => {
-              return (
-                <li className='break'>{pubs.text}<b>{pubs.journal}</b><i>{pubs.status}</i>
-                <a className='url-link' target='_blank' rel='noopener noreferrer' href={pubs.link}> {pubs.link}</a>
-                { pubs.download != null && <a href={pubs.download} className="bi-download download-link" download> </a> }
-                </li> 
-              )})} 
-              </ol>
+            <div class = 'card mb-50'>
+              <div class = 'card-header'>
+              <a data-toggle="collapse" href="#collapse-submitted" aria-expanded="true" aria-controls="collapse-submitted" id="heading-submitted" class="collapsible-header">
+                  <i class="fa fa-chevron-down pull-right"></i>
+                <h4 className='subtitle fw-bold publication-subtitle-card'>Submitted Papers and Pre-prints</h4>
+                </a>
+              </div>              
+              <div id="collapse-submitted" class="collapse show" aria-labelledby="heading-submitted">
+                <div class = 'card-body'>
+                  <ol>
+                  { submittedPapers.map((pubs) => {
+                  return (
+                    <li className='break'>{pubs.text}<i>{pubs.journal}</i><i>{pubs.status} </i>
+                    { pubs.link != null && <a className='download-link' target='_blank' rel='noopener noreferrer' href={pubs.link}><i class="fa fa-solid fa-link"></i></a> }
+                    { pubs.download != null && <a href={pubs.download} className="download-link" download><i class="fa fa-solid fa-download"></i></a> }
+                    </li> 
+                  )})} 
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class = 'card mb-50'>
+              <div class = 'card-header'>
+              <a data-toggle="collapse" href="#collapse-published" aria-expanded="true" aria-controls="collapse-published" id="heading-published" class="collapsible-header">
+                  <i class="fa fa-chevron-down pull-right"></i>
+                <h4 className='subtitle fw-bold publication-subtitle-card'>Peer-reviewed Journal Papers</h4>
+              </a>
+              </div>
+              <div id="collapse-published" class="collapse show" aria-labelledby="heading-published">
+                <div class = 'card-body'>
+                  <ol>
+                  { peerReviewedPapers.map((pubs) => {
+                  return (
+                    <li className='break'>{pubs.text}<b>{pubs.journal}</b>{pubs.issue}<i>{pubs.status} </i>
+                    { pubs.link != null && <a className='download-link' target='_blank' rel='noopener noreferrer' href={pubs.link}><i class="fa fa-solid fa-link"></i></a> }
+                    { pubs.download != null && <a href={pubs.download} className="download-link" download><i class="fa fa-solid fa-download"></i></a> }
+                    </li> 
+                  )})} 
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class = 'card mb-50'>
+              <div class = 'card-header'>
+                <a data-toggle="collapse" href="#collapse-conferencepapers" aria-expanded="true" aria-controls="collapse-conferencepapers" id="heading-conferencepapers" class="collapsible-header">
+                    <i class="fa fa-chevron-down pull-right"></i>
+                  <h4 className='subtitle fw-bold publication-subtitle-card'>Peer-reviewed Conference Papers</h4>
+                </a>
+              </div>
+              <div id="collapse-conferencepapers" class="collapse show" aria-labelledby="heading-conferencepapers">
+                <div class = 'card-body'>
+                  <ol>
+                  { conferencePapers.map((pubs) => {
+                  return (
+                    <li className='break'>{pubs.text}<b>{pubs.journal}</b><i>{pubs.status} </i>
+                    { pubs.link != null && <a className='download-link' target='_blank' rel='noopener noreferrer' href={pubs.link}><i class="fa fa-solid fa-link"></i></a> }
+                    { pubs.download != null && <a href={pubs.download} className="download-link" download><i class="fa fa-solid fa-download"></i></a> }
+                    </li> 
+                  )})} 
+                  </ol>
+                </div>
+              </div>
+            </div>
             </section>
             <h2 className='page-title text-center mt-50'>Grants</h2>
                 <p>Please see my <a className='reg-link' href={cv}>CV</a> for a complete list of my grants and funded projects.</p>

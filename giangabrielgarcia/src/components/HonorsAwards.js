@@ -30,6 +30,7 @@ const HonorsAwards = () => {
                     <h3 className='page-title'>Selected Institutional Awards</h3>
                     <hr></hr>
                     <ul className='ms-0 ps-0'>
+                        <li className='break'>Annual CIOS Award (2023)</li>
                         <li className='break'>CIOS Honor Roll: Student Recognition of Excellent in Teaching (2023)</li>
                         <li className='break'>ISyE Diversity, Equity, and Inclusion Fellow (2022-2023)</li>
                         <li className='break'>CIOS Honor Roll: Student Recognition of Excellent in Teaching (2022)</li>
