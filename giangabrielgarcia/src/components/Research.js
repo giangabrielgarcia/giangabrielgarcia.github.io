@@ -10,6 +10,8 @@ import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 import ms_PoN from '../assets/manuscripts/2023-PriceofNaivete.pdf';
 
 const submittedPapers = [
+  {text: 'C. X. Bugg, Y. Yang, G.-G. P. Garcia, and K. R. Siegel (2024). Implementing Federal Food Service Guidelines in Federal and Private Worksite Cafeterias in the United States Improves HUman and Planetary Health. ', status: '(Submitted)'},
+
   {text: 'A. K. McNealey, M. E. Meredith, G.-G. P. Garcia, S. L. Boulet, K. K. Stanhope, M. H. Platner, and L. N. Steimle (2024). Recommendations for Vaginal Birth after Cesarean Using Historic and Race-Blind Risk Calculators. ', status: '(Submitted)'},
 
 
@@ -21,11 +23,11 @@ const submittedPapers = [
 
   {text: 'C.-Y. Liao, E. Keyvanshokooh, and G.-G. P. Garcia (2023). Data-Driven Counterfactual Optimization for Personalized Clinical Decision-Making. ', status: '(Submitted)', link: 'https://optimization-online.org/?p=23949'},
 
-  { text: 'X. Gong, S.J. Lee, G.-G. P. Garcia (2023). Analysis of Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes: Impact of State Ordering Rules. ', status: '(Under review)', link: 'https://optimization-online.org/?p=23723'},
+  { text: 'S.J. Lee, X. Gong, G.-G. P. Garcia (2024). Modified Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes and the Impact of State Ordering Rules. ', status: '(Under review)', link: 'https://optimization-online.org/?p=23723'},
 
-  { text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2022). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Under revision)`, link: 'https://arxiv.org/abs/2211.07570', download: manuscript6 },
+  { text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2024). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Under review)`, link: 'https://arxiv.org/abs/2211.07570', download: manuscript6 },
 
-  { text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2022). Learning Hidden Markov Models with Structured Dynamics. ', status: '(Under revision)'},
+  { text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2024). Learning Hidden Markov Models with Structured Dynamics. ', status: '(Under revision)'},
 ]
 
 const peerReviewedPapers = [
