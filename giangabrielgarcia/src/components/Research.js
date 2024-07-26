@@ -10,27 +10,29 @@ import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 import ms_PoN from '../assets/manuscripts/2023-PriceofNaivete.pdf';
 
 const submittedPapers = [
-  {text: 'C. X. Bugg, Y. Yang, G.-G. P. Garcia, and K. R. Siegel (2024). Implementing Federal Food Service Guidelines in Federal and Private Worksite Cafeterias in the United States Improves HUman and Planetary Health. ', status: '(Submitted)'},
+  {text: 'C.-Y. Liao, E. Keyvanshokooh, F. J. Pasquel, and G.-G. P. Garcia (2024). Augmenting Individualized Treatment Planning via Data-driven Clinical Role Model Selection. ', status: '(Submitted)'}, //, link: 'https://optimization-online.org/?p=23949'},
+
+  {text: 'C. X. Bugg, Y. Yang, G.-G. P. Garcia, and K. R. Siegel (2024). Implementing Federal Food Service Guidelines in Federal and Private Worksite Cafeterias in the United States Improves Human and Planetary Health. ', status: '(Submitted)'},
 
   {text: 'A. K. McNealey, M. E. Meredith, G.-G. P. Garcia, S. L. Boulet, K. K. Stanhope, M. H. Platner, and L. N. Steimle (2024). Recommendations for Vaginal Birth after Cesarean Using Historic and Race-Blind Risk Calculators. ', status: '(Submitted)'},
 
+  {text: 'C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2024). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. ', status: '(Under review)', link: 'https://arxiv.org/abs/2211.07570'},
 
-  {text: 'Y. Yang, C.-Y. Liao, E. Keyvanshokooh, H. Shao, M. B. Weber, F. Pasquel, and G.-G. P. Garcia (2024). Assessing the Predictive Performance, Explainability, and Fairness of Interpretable Machine Learning Models in Cardiovascular Disease Outcomes among People with Type-2 Diabetes. ', status: '(Submitted)'},
+
+  {text: 'Y. Yang, C.-Y. Liao, E. Keyvanshokooh, H. Shao, M. B. Weber, F. Pasquel, and G.-G. P. Garcia (2024). A Responsible Framework for Assessing, Selecting, and Explaining Machine Learning Models in Cardiovascular Disease Outcomes Among People with Type 2 Diabetes. ', status: '(Under review)'},
+
+  {text: 'H. S. Pandey, B. Lahijanian, J. D. Schmidt, R. C. Lynall, S. P. Broglio, T. W. McAllister, M. A. McCrea, P. F. Pasquina, and G.-G. P. Garcia (2024). Quantifying the Diagnostic Utility of Baseline Testing: An Analysis of the NCAA-DoD CARE Consortium Dataset. ', status: '(Submitted).'},
 
   {text: 'G.-G. P. Garcia, N. Ghaffarzadegan, and M. S. Jalali (2024). Rethinking Optimal Screening Selection Rates for Post-traumatic Stress Disorder: The Impact of Social Stigma. ', status: '(Submitted)', link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4711318'},
 
-  {text: 'G.-G. P. Garcia, E. J. Stringfellow, and M. S. Jalali (2023). Looking Back: COVID-19 and the Drug Overdose Crisis. ', status: '(Submitted)'},
-
-  {text: 'C.-Y. Liao, E. Keyvanshokooh, and G.-G. P. Garcia (2023). Data-Driven Counterfactual Optimization for Personalized Clinical Decision-Making. ', status: '(Submitted)', link: 'https://optimization-online.org/?p=23949'},
-
-  { text: 'S.J. Lee, X. Gong, G.-G. P. Garcia (2024). Modified Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes and the Impact of State Ordering Rules. ', status: '(Under review)', link: 'https://optimization-online.org/?p=23723'},
-
-  { text: `C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2024). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. `, status: `(Under review)`, link: 'https://arxiv.org/abs/2211.07570', download: manuscript6 },
-
-  { text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2024). Learning Hidden Markov Models with Structured Dynamics. ', status: '(Under revision)'},
+  {text: 'G.-G. P. Garcia, E. J. Stringfellow, and M. S. Jalali (2023). Looking Back: COVID-19 and the Drug Overdose Crisis. ', status: '(Submitted)'}  
 ]
 
 const peerReviewedPapers = [
+  { text: 'S.J. Lee, X. Gong, G.-G. P. Garcia (2024). Modified Monotone Policy Iteration for Interpretable Policies in Markov Decision Processes and the Impact of State Ordering Rules. ', journal: 'Annals of Operations Research. ', status: '(Accepted)', link:'https://rdcu.be/dOSk2'}, //'https://optimization-online.org/?p=23723'},
+
+  { text: 'S. Ma, A. Dehghanian, G.-G. P. Garcia, and N. Serban (2024). Learning Hidden Markov Models with Structured Dynamics. ', journal: 'INFORMS Journal on Computing. ', status: '(Accepted)'},
+
   {text: 'L. B. Lempke, A. J. Boltz, G.-G. P. Garcia, R. A. Syrydiuk, H. S. Pandey, M. A. McCrea, T. W. McAllister, and S. P. Broglio (2023). Optimizing Baseline and Post-Concussion Assessments Through Factor Structure Analysis: Findings from the NCAA-DoD CARE Consortium. ', journal: 'The Clinical Neuropsychologist. ', status: '(Accepted)', link: 'https://doi.org/10.1080/13854046.2023.2271614'},
 
   {id: 23, text: `G.-G. P. Garcia , L.L. Czerniak, M.S. Lavieri, S.W. Liebel, K. Van Pelt, P.F. Pasquina, T.W. McAllister, M.A. McCrea, S.P. Broglio, and CARE Consortium Investigators (2023). Tailoring the Symptom-Free Waiting Period in Return-to-Play from Concussion: A Simulation Analysis Using CARE Consortium Data. `, journal: "Sports Medicine. ", status: "(Accepted)", link: 'https://doi.org/10.1007/s40279-023-01901-5' },

@@ -33,7 +33,7 @@ const Home = () => {
 
          <div className='about-text'>
              <h2 className='center page-title'>About Me</h2>
-             <p>I'm an Assistant Professor in the <a href = "https://www.isye.gatech.edu/" target='_blank' rel='noopener noreferrer' className='reg-link'>H. Milton Stewart School of Industrial and Systems Engineering</a> (ISyE) at Georgia Tech. 
+             <p>I'm an Assistant Professor in the <a href = "https://www.isye.gatech.edu/" target='_blank' rel='noopener noreferrer' className='reg-link'>H. Milton Stewart School of Industrial and Systems Engineering</a> (ISyE) and the <a href = "https://www.isye.gatech.edu/news/childrens-healthcare-atlanta-pediatric-technology-center-ptc-announces-gian-gabriel-garcia-phd" target='_blank' rel='noopener noreferrer' className='reg-link'>Pillar 1 Co-lead in Data Science, Machine Learning, and Artificial Intelligence in the Children's Healthcare of Atlanta Pediatric Technology Center</a> at Georgia Tech. 
 		    My research interests are in the design, analysis, and optimization of data-driven frameworks at the intersection of prediction and decision-making as motivated by high-impact problems in Medical Decision-Making and Health Policy. 
 		    My recent work emphasizes the design of frameworks that are interpretable, equitable, and robust so that they are acceptable to key stakeholders at the patient, physician, operational, and policy levels. 
 		    This research area draws problems which have both practical impact and interesting theoretical challenges.</p>
