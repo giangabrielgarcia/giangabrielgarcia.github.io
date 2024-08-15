@@ -55,9 +55,7 @@ const phdStudents = [
 
 const postDocs = [
    
-    {
-        name: 'Caleb Bugg', degree: 'Thuesen Postdoctoral Fellow', photo: bugg, bio: 'I am a Postdoctoral Fellow in The H. Milton Stewart School of Industrial and Systems Engineering at The Georgia Institute of Technology. I received my BS in mathematics from Morehouse College and my MS and PhD in Operations Research from the University of California, Berkeley. My research seek to discover and implement quantitative methods which have a social-, civic-, and/or government-based applicatons. Utilizing the math and statistical models native to Operations Research and Management, I synthesize topics that provide an analytical basis for our society to invest in long-term, social good projects.', personalSite: 'https://www.calebxb.com/'
-    }
+
 ]
 
 const undergradMS = [
@@ -89,7 +87,9 @@ const undergradMS = [
 ]
 
 const alumni = [
-
+    {
+        name: 'Caleb Bugg', degree: 'Thuesen Postdoctoral Fellow', photo: bugg, bio: 'I am a Postdoctoral Fellow in The H. Milton Stewart School of Industrial and Systems Engineering at The Georgia Institute of Technology. I received my BS in mathematics from Morehouse College and my MS and PhD in Operations Research from the University of California, Berkeley. My research seek to discover and implement quantitative methods which have a social-, civic-, and/or government-based applicatons. Utilizing the math and statistical models native to Operations Research and Management, I synthesize topics that provide an analytical basis for our society to invest in long-term, social good projects.', personalSite: 'https://www.calebxb.com/', currentposition: 'Operations Analyst at Reaching Our Sisters Everywhere, Inc.'
+    },
     {
         name: 'Behshad Lahijanian', degree: 'Tennenbaum Postdoctoral Fellow', bio: 'I am a Tennenbaum Postdoctoral Fellow in the H. Milton Stewart School of Industrial and Systems Engineering at Georgia Tech. I earned my Ph.D. degree in Industrial and Systems Engineering from the University of Florida in May 2022, holding my MS and BS in Industrial Engineering from the Amirkabir University of Technology. My research focuses on decision-making by developing methods and algorithms for healthcare systems using Stochastic Programming, Multi-method Simulation, and Machine Learning.', photo: behshad, personalSite: "https://sites.google.com/view/behshadlahijanian/home", linkedin: "https://www.linkedin.com/in/behshad-lahijanian-ph-d-10984585", currentposition: 'Senior Data Scientist at JP Morgan Chase'
     },
@@ -163,9 +163,10 @@ const ResearchGroup = () => {
                 
                 }
 
-
+                
                 <h4 className='page-title'>Postdoctoral Research Fellows</h4>
                 <hr></hr>
+
                 {
                     postDocs.map((student) => {
                         
@@ -197,6 +198,7 @@ const ResearchGroup = () => {
 
                 
                 }
+            
 
             <h4 className='page-title'>Masters and Undergraduate Students</h4>
                 <hr></hr>
