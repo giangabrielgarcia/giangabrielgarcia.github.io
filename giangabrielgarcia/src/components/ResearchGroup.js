@@ -60,7 +60,7 @@ const postDocs = [
 ]
 
 const undergradMS = [
-    {name: 'Panus ', degree: 'MS in Operations Research (Expected 2025)', bio: 'I am a Masters Student in Operations Research at H. Milton Stewart School of Industrial and Systems Engineering. I received my Bachelor in Engineering major in Information and Communication Engineering from Chulalongkorn University (Bangkok, Thailand) in 2024. My research interest lies in applying OR methodology, including stochastic modeling, simulation, and machine learning, into healthcare systems. I am now working on a personalized type II diabetes screening scheme.', photo: panus, linkedin: 'http://linkedin.com/in/panus-sawetpiyakul-7a6916129'},
+    {name: 'Panus Sawetpiyakul', degree: 'MS in Operations Research (Expected 2025)', bio: 'I am a Masters Student in Operations Research at H. Milton Stewart School of Industrial and Systems Engineering. I received my Bachelor in Engineering major in Information and Communication Engineering from Chulalongkorn University (Bangkok, Thailand) in 2024. My research interest lies in applying OR methodology, including stochastic modeling, simulation, and machine learning, into healthcare systems. I am now working on a personalized type II diabetes screening scheme.', photo: panus, linkedin: 'http://linkedin.com/in/panus-sawetpiyakul-7a6916129'},
 
 
 
