@@ -25,11 +25,7 @@ const Navbar = () => {
             Honors/Awards
           </NavLink>
         </li>
-        <li>
-          <NavLink className="navlink-styles" to="/diversity">
-            Diversity
-          </NavLink>
-        </li>
+      
       </ul>
     </div>
   );
