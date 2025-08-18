@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.146bf47d.css",
-    "main.js": "/static/js/main.51feea11.js",
+    "main.js": "/static/js/main.56693a84.js",
+    "static/media/jadeli-headshot.jpg": "/static/media/jadeli-headshot.4ab118eedc8c743c307d.jpg",
     "static/media/tripathy-headshot.jpg": "/static/media/tripathy-headshot.3a70d666541203f126cf.jpg",
     "static/media/garcia-headshot.jpg": "/static/media/garcia-headshot.4d7c3da3f8b41bf59622.jpg",
     "static/media/preprint-STEMMED.pdf": "/static/media/preprint-STEMMED.395dfc61459519a5aa39.pdf",
@@ -29,10 +30,10 @@
     "static/media/whitebox.jpg": "/static/media/whitebox.5e3fe6e8531b59b5cf98.jpg",
     "index.html": "/index.html",
     "main.146bf47d.css.map": "/static/css/main.146bf47d.css.map",
-    "main.51feea11.js.map": "/static/js/main.51feea11.js.map"
+    "main.56693a84.js.map": "/static/js/main.56693a84.js.map"
   },
   "entrypoints": [
     "static/css/main.146bf47d.css",
-    "static/js/main.51feea11.js"
+    "static/js/main.56693a84.js"
   ]
 }
