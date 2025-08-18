@@ -20,6 +20,7 @@ import bugg from '../assets/images/bugg-headshot.jpeg';
 import grodzinsky from '../assets/images/grodzinsky-headshot.jpg';
 import yixuan from '../assets/images/yixuan-headshot.jpg';
 import panus from '../assets/images/panus-headshot.jpg';
+import jade from '../assets/images/jadeli-headshot.jpg';
 
 
 const phdStudents = [
@@ -47,7 +48,7 @@ const phdStudents = [
 
     {name: 'Panus Sawetpiyakul', degree: 'PhD in Industrial Engineering, University of Washington (Expected 2030)', bio: 'I am a PhD student in Industrial Engineering at the University of Washington. I received my MS in Operations Research from Georgia Tech in 2025. I received my Bachelor in Engineering major in Information and Communication Engineering from Chulalongkorn University (Bangkok, Thailand) in 2024. My research interest lies in applying OR methodology, including stochastic modeling, simulation, and machine learning, into healthcare systems. I am now working on a personalized type II diabetes screening scheme.', photo: panus, linkedin: 'http://linkedin.com/in/panus-sawetpiyakul-7a6916129'},
 
-    {name: 'Jade Li', degree: 'PhD in Industrial Engineering, University of Washington (Expected 2030)', coadvisor: 'Shan Liu', bio: '' , photo: filler},
+    {name: 'Jade Li', degree: 'PhD in Industrial Engineering, University of Washington (Expected 2030)', coadvisor: 'Shan Liu', bio: 'I am a PhD student in Industrial Engineering at The University of Washington. I received my BS in Mathematics & Data Science from the University of Michigan. My research interests include machine learning, optimization, and their applications to healthcare systems.' , photo: jade, linkedin: 'https://urldefense.com/v3/__http://www.linkedin.com/in/jade-li-037785243__;!!K-Hz7m0Vt54!h6YTvmRWw02-yUBmq4-LClA1PjH8e9UaLimRzfBXDF8SAmBTH3Njgk6wL1ZlqrpXnHTELBFaW5dxw4wM4Q$'},
 
 
 
