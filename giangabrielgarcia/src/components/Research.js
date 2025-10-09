@@ -20,11 +20,11 @@ const submittedPapers = [
 
  // {text: 'C. X. Bugg, Y. Yang, G.-G. P. Garcia, and K. R. Siegel (2024). Implementing Federal Food Service Guidelines in Federal and Private Worksite Cafeterias in the United States Improves Human and Planetary Health. ', status: '(Submitted)'},
 
-  {text: 'Y. Xie, G.-G. P. Garcia, E. Song, and N. Serban (2024). Evaluating Access to Pediatric Psychosocial Services: A Discrete Event Simulation Approach under Uncertainty. ', status: '(Under revision)'},
+
 
   // {text: 'A. K. McNealey, M. E. Meredith, G.-G. P. Garcia, S. L. Boulet, K. K. Stanhope, M. H. Platner, and L. N. Steimle (2024). Recommendations for Vaginal Birth after Cesarean Using Historic and Race-Blind Risk Calculators. ', status: '(Submitted)'},
 
-  {text: 'C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2024). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. ', status: '(Under revision)', link: 'https://arxiv.org/abs/2211.07570', download: manuscript6},
+  
 
   {text: 'G.-G. P. Garcia, N. Ghaffarzadegan, and M. S. Jalali (2024). Optimal Screening Selection Rates for Post-traumatic Stress Disorder and The Impact of Social Stigma. ', status: '(Under revision)', link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4711318'}
 
@@ -32,6 +32,10 @@ const submittedPapers = [
 ]
 
 const peerReviewedPapers = [
+  {id: 32, text: 'C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2025). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. ', journal: 'Manufacturing & Service Operations Management. ', status: '(Accepted)', link: 'https://arxiv.org/abs/2211.07570', download: manuscript6},
+
+  {id: 31, text: 'Y. Xie, G.-G. P. Garcia, E. Song, and N. Serban (2025). Evaluating Access to Paediatric Psychosocial Services: A Discrete Event Simulation Approach under Uncertainty. ', journal: 'Journal of Simulation. ', status: '(Accepted)'},
+
   {id: 30, text: 'L. L. Czerniak, G.-G. P. Garcia, M. W. Genthe, Y. Xia, M. S. Lavieri, M. A. McCrea, T. W. McAllister, P. F. Pasquina, S. W. Liebel, and S. P. Broglio (2025). Prediction of symptom burden, cognitive status, and risk of psychological distress in NCAA athletes with sport-related concussion(s): findings from the NCAA-DoD CARE Consortium. ', journal: 'Annals of Biomedical Engineering. ', status: '(Accepted)'},
 
   {id: 29, text: 'R. Parab, J. Feeley, M. Valero, L. Chadalawada, G.-G. P. Garcia, S. Sil Kar, A. Madabhushi, M. Breton, J. Li, H. Shao, and F. J. Pasquel (2025). How Artificial Intelligence and Machine Learning are Transforming Diabetes Care. ', journal: 'Endocrine Practice. ', status: '(Accepted)', link: 'https://doi.org/10.1016/j.eprac.2025.07.008'},
@@ -99,7 +103,7 @@ const peerReviewedPapers = [
 
 
 
-const ormsIDs = [1, 3, 7, 20, 21, 25, 26]
+const ormsIDs = [1, 3, 7, 20, 21, 25, 26,31,32]
 
 let ormsPapers = []
 
