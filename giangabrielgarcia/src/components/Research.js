@@ -10,6 +10,8 @@ import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 import ms_PoN from '../assets/manuscripts/2023-PriceofNaivete.pdf';
 
 const submittedPapers = [
+  {text: 'S.J. Lee, G.-G. P. Garcia (2025). A Data-driven Optimization Approach to Designing Parsimonious Treatment Guidelines', status: '(Submitted)'},
+
   {text: 'Y. Yang, T. Liu, C.-Y. Liao, S. J. Lee, E. Keyvanshokooh, H. Shao, M. B. Weber, F. J. Pasquel, and G.-G. P. Garcia (2025). Development and Evaluation of Cardiovascular Disease Risk Models for Patients with Type 2 Diabetes. ', status: '(Submitted)'},
   
   {text: 'H. S. Pandey, G.-G. P. Garcia, S. P. Broglio, M. A. McCrea, T. W. McAllister, P. F. Pasquina, and L. B. Lempke (2025). Comprehensive Assessment under Constrained Time (CompACT): An Operationally Constrained Machine Learning Approach. ', status:'(Under revision)'},
