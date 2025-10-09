@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.146bf47d.css",
-    "main.js": "/static/js/main.56693a84.js",
+    "main.js": "/static/js/main.3d607e6c.js",
     "static/media/jadeli-headshot.jpg": "/static/media/jadeli-headshot.4ab118eedc8c743c307d.jpg",
     "static/media/tripathy-headshot.jpg": "/static/media/tripathy-headshot.3a70d666541203f126cf.jpg",
     "static/media/garcia-headshot.jpg": "/static/media/garcia-headshot.4d7c3da3f8b41bf59622.jpg",
@@ -24,16 +24,16 @@
     "static/media/mcnealey-headshot.jpeg": "/static/media/mcnealey-headshot.c265bb64c14d8c11780d.jpeg",
     "static/media/grodzinsky-headshot.jpg": "/static/media/grodzinsky-headshot.ecc1fc666a2c70a9ea31.jpg",
     "static/media/panus-headshot.jpg": "/static/media/panus-headshot.8157dfdcff749ec519f5.jpg",
-    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.014c8d1a4fb2111fdaf8.pdf",
+    "static/media/Garcia_CV.pdf": "/static/media/Garcia_CV.b7ea9b1c3bc22ea73052.pdf",
     "static/media/lahijanian-headshot.jpg": "/static/media/lahijanian-headshot.1d547174dd1e69441999.jpg",
     "static/media/chen2-headshot.jpg": "/static/media/chen2-headshot.4c76ab0ced62e4c3234d.jpg",
     "static/media/whitebox.jpg": "/static/media/whitebox.5e3fe6e8531b59b5cf98.jpg",
     "index.html": "/index.html",
     "main.146bf47d.css.map": "/static/css/main.146bf47d.css.map",
-    "main.56693a84.js.map": "/static/js/main.56693a84.js.map"
+    "main.3d607e6c.js.map": "/static/js/main.3d607e6c.js.map"
   },
   "entrypoints": [
     "static/css/main.146bf47d.css",
-    "static/js/main.56693a84.js"
+    "static/js/main.3d607e6c.js"
   ]
 }
