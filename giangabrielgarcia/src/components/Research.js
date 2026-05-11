@@ -10,30 +10,32 @@ import manuscript6 from '../assets/manuscripts/preprint-STEMMED.pdf';
 import ms_PoN from '../assets/manuscripts/2023-PriceofNaivete.pdf';
 
 const submittedPapers = [
-  {text: 'S.J. Lee, G.-G. P. Garcia (2025). A Data-driven Optimization Approach to Designing Parsimonious Treatment Guidelines. ', status: '(Submitted)'},
+  {text: 'C.-Y. Liao, Z. Dong, G.-G. P. Garcia, and K. Paynabar (2026). Multivariate Time Series Data Imputation via Distributionally Robust Regularization. ', status: '(Submitted)', link: 'https://arxiv.org/abs/2602.00844'}, 
 
-  {text: 'Y. Yang, T. Liu, C.-Y. Liao, S. J. Lee, E. Keyvanshokooh, H. Shao, M. B. Weber, F. J. Pasquel, and G.-G. P. Garcia (2025). Development and Evaluation of Cardiovascular Disease Risk Models for Patients with Type 2 Diabetes. ', status: '(Submitted)'},
+  {text: 'H. S. Pandey, K. Wang, and G.-G. P. Garcia (2026). Neural Index Policies for Restless Multi-Action Bandits with Heterogeneous Budgets. ', status: '(Submitted)', link: 'https://arxiv.org/abs/2510.22069'}, 
+
+  {text: 'C.-Y. Liao, E. Keyvanshokooh, and G.-G. P. Garcia (2026). Constraint-Aware Self-Improving Large Language Model for Clinical Role Model Generation. ', status: '(Submitted)', link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5642250'}, 
   
-  {text: 'H. S. Pandey, G.-G. P. Garcia, S. P. Broglio, M. A. McCrea, T. W. McAllister, P. F. Pasquina, and L. B. Lempke (2025). Comprehensive Assessment under Constrained Time (CompACT): An Operationally Constrained Machine Learning Approach. ', status:'(Under revision)'},
-
-  {text: 'C.-Y. Liao, E. Keyvanshokooh, F. J. Pasquel, and G.-G. P. Garcia (2024). Augmenting Individualized Treatment Planning via Data-driven Clinical Role Model Selection. ', status: '(Submitted)'}, //, link: 'https://optimization-online.org/?p=23949'},
+  {text: 'S.J. Lee, G.-G. P. Garcia (2025). A Data-driven Optimization Approach to Designing Parsimonious Treatment Guidelines. ', status: '(Submitted)'},
+ 
+  {text: 'C.-Y. Liao, E. Keyvanshokooh, F. J. Pasquel, and G.-G. P. Garcia (2025). Augmenting Individualized Treatment Planning via Data-driven Clinical Role Model Selection. ', status: '(Under review)'}, //, link: 'https://optimization-online.org/?p=23949'},
 
   {text: 'G.-G. P. Garcia and J. C. Martinez Mori (2024). Who\' the GOAT? Sports Rankings and Data-Driven Random Walks on the Symmetric Group. ', status: '(Submitted)'},
 
  // {text: 'C. X. Bugg, Y. Yang, G.-G. P. Garcia, and K. R. Siegel (2024). Implementing Federal Food Service Guidelines in Federal and Private Worksite Cafeterias in the United States Improves Human and Planetary Health. ', status: '(Submitted)'},
 
-
-
   // {text: 'A. K. McNealey, M. E. Meredith, G.-G. P. Garcia, S. L. Boulet, K. K. Stanhope, M. H. Platner, and L. N. Steimle (2024). Recommendations for Vaginal Birth after Cesarean Using Historic and Race-Blind Risk Calculators. ', status: '(Submitted)'},
 
-  
-
-  {text: 'G.-G. P. Garcia, N. Ghaffarzadegan, and M. S. Jalali (2024). Optimal Screening Selection Rates for Post-traumatic Stress Disorder and The Impact of Social Stigma. ', status: '(Under revision)', link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4711318'}
+    {text: 'G.-G. P. Garcia, N. Ghaffarzadegan, and M. S. Jalali (2024). Optimal Screening Selection Rates for Post-traumatic Stress Disorder and The Impact of Social Stigma. ', status: '(Under review)', link: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4711318'}
 
 //  {text: 'G.-G. P. Garcia, E. J. Stringfellow, and M. S. Jalali (2023). Looking Back: COVID-19 and the Drug Overdose Crisis. ', status: '(Submitted)'}  
 ]
 
 const peerReviewedPapers = [
+  {id: 34, text: 'H. S. Pandey, G.-G. P. Garcia, S. P. Broglio, M. A. McCrea, T. W. McAllister, P. F. Pasquina, and L. B. Lempke (2026). So Many Tests, So Little Time: Operationally Constrained Machine Learning for Diagnostic Assessment under Time Constraints. ', journal: 'IISE Transactions. ', status:'(Accepted)'},
+
+  {id: 33, text: 'Y. Yang, T. Liu, C.-Y. Liao, S. J. Lee, E. Keyvanshokooh, H. Shao, M. B. Weber, F. J. Pasquel, and G.-G. P. Garcia (2026). Development and Evaluation of Cardiovascular Disease Risk Models for Patients with Type 2 Diabetes. ', journal: 'Scientific Reports. ', status: '(Accepted)', link: 'https://www.nature.com/articles/s41598-026-45129-5'},
+
   {id: 32, text: 'C.-Y. Liao, G.-G. P. Garcia, K. Paynabar, Z. Dong, Y. Xie, and M. S. Jalali (2025). Tides Need STEMMED: A Locally Operating Spatio-Temporal Mutually Exciting Point Process with Dynamic Network for Improving Opioid Overdose Death Prediction. ', journal: 'Manufacturing & Service Operations Management. ', status: '(Accepted)', link: 'https://arxiv.org/abs/2211.07570', download: manuscript6},
 
   {id: 31, text: 'Y. Xie, G.-G. P. Garcia, E. Song, and N. Serban (2025). Evaluating Access to Paediatric Psychosocial Services: A Discrete Event Simulation Approach under Uncertainty. ', journal: 'Journal of Simulation. ', status: '(Accepted)'},
@@ -105,7 +107,7 @@ const peerReviewedPapers = [
 
 
 
-const ormsIDs = [1, 3, 7, 20, 21, 25, 26,31,32]
+const ormsIDs = [1, 3, 7, 20, 21, 25, 26,31,32,34]
 
 let ormsPapers = []
 
@@ -121,6 +123,8 @@ peerReviewedPapers.forEach((paper) => {
 
 
 const conferencePapers = [
+  {id: 3, text: 'K. B. Adams, Y. Yang, G.-G. P. Garcia, A. Roy, X.-L. Leong, D. Chung, and V. Ahuja. "Predicting Pediatric Surgical Case Duration Using Machine Learning: Leveraging Team Dynamics and Operational Features." Proceedings of the 59th Hawaii International Conference on System Sciences, Hawaii, USA, 2026', link: 'https://scholarspace.manoa.hawaii.edu/bitstreams/5bbbb42e-f3e5-4a16-8d44-e9c3b767fd39/download' },
+
   { id: 2, text: `V. Nori Naga, S. Sundar, G.-G. P. Garcia. "Analysis of Machine Learning and Ensemble Methods for Forecasting COVID-19 Cases in California." 2023 IISE Annual Meeting, New Orleans, LA, 2023, pp. 91-96. `},
 
   { id: 1, text: `G.-G. P. Garcia, L.L. Czerniak, M.S. Lavieri, S.W. Liebel, M.A. McCrea, T.W. McAllister, P.F. Pasquina, S.P. Broglio, and CARE Consortium Investigators. "Simulation-Optimization to Distinguish Optimal Symptom Free Waiting Period for Return-to-play from Concussion." 2022 Winter Simulation Conference (WSC), Singapore, 2022, pp. 1021-1032.`, link: "https://doi.org/10.1109/WSC57314.2022.10015285" }
@@ -219,7 +223,7 @@ const Research = () => {
               <div class = 'card-header'>
               <a data-toggle="collapse" href="#collapse-published" aria-expanded="true" aria-controls="collapse-published" id="heading-published" class="collapsible-header">
                   <i class="fa fa-chevron-down pull-right"></i>
-                <h4 className='subtitle fw-bold publication-subtitle-card'>Operations Research and Management Science Papers</h4>
+                <h4 className='subtitle fw-bold publication-subtitle-card'>Operations Research, Operations Management, and Management Science Papers</h4>
               </a>
               </div>
               <div id="collapse-published" class="collapse show" aria-labelledby="heading-published">

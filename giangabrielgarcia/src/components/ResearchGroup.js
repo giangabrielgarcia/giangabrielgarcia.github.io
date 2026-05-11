@@ -24,26 +24,9 @@ import jade from '../assets/images/jadeli-headshot.jpg';
 
 
 const phdStudents = [
-    {
-        name: 'Che-Yi Liao', degree: 'PhD in Machine Learning, Georgia Tech (Expected 2026)', coadvisor: 'Kamran Paynabar',
-        bio: `I am PhD student in ISyE at Georgia Tech, holding my Masters' degree in Industrial and Operations Engineering from the University of Michigan and Bachelors in Shipping and Transportation Management from the National Taiwan Ocean University. My primary research interests lie in Healthcare Analytics and Healthcare OR where I apply Predictive Modeling, Spatial-Temporal Modeling, and Simulation to guide medical decision making. I am currently collaborating with Massachusetts General Hospital on predicting and addressing the ongoing opioid crisis.`,
-        awards: ['INFORMS Bonder Scholarship (2024)', 'Thos and Clair Muller Research Fellowship in Health Analytics and Health Systems (2023)', 'Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2023)','First Prize, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)', 'ISyE George Family Fellowship (2022-2024)'], photo: liao, personalSite: 'https://sites.gatech.edu/che-yi-liao/'
-        
-    },
-
-    // {
-    //     name: 'Kelsey Custodio', degree: 'PhD in Industrial Engineering (Expected 2026)',
-    //     bio: 'I am a PhD student in Industrial Engineering, holding a MS in Operations Research from Columbia University and a BS in Industrial Engineering from Georgia Tech. My research interests are resource allocation problems and fairness in decision making models along with their applications to healthcare. Currently, I am analyzing VA wait time data to identify trends in wait times by type of consultation and location.', photo: custodio
-    // },
-
-    // {
-    //     name: 'Amaya McNealey', degree: 'PhD in Industrial Engineering (Expected 2027)', coadvisor: 'Lauren Steimle', 
-    //     bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my B.S. in Industrial and Systems Engineering from North Carolina A&T State University. My research interests are primarily related to health policy applications along with social determinants of health. I am especially interested in equity and fairness in Machine Learning algorithms along with methods to ensure interpretability.', photo: mcnealey, linkedin: "https://www.linkedin.com/in/amaya-mcnealey-a90247170/",
-    //     awards: ['ISyE George Family Fellowship (2023)']
-    // },
 
     {
-        name: 'Himadri Pandey', degree: 'PhD in Machine Learning, Georgia Tech (Expected 2027)', photo: pandey, bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my BS in Computer Science, with a minor in Mathematics and Physics, from the University of Cincinnati. My research interests include the application of Machine Learning to healthcare optimization problems. My current project involves concussion diagnosis under time constraints.', linkedin: "https://www.linkedin.com/in/himadri-s-pandey/", awards: ['First Prize, INFORMS Minority Issues Forum Poster Competition (2024)', 'Georgia HIMSS David Cowan Scholarship (2024)', 'ISyE George Family Fellowships (2024)', 'ISyE Philip J. and Delores A. Scott Graduate Student Health and Wellness Award (2024)']
+        name: 'Himadri Pandey', degree: 'PhD in Machine Learning, Georgia Tech (Expected 2027)', photo: pandey, bio: 'I am a PhD student in Industrial Engineering at the H. Milton Stewart School of Industrial and Systems Engineering. I received my BS in Computer Science, with a minor in Mathematics and Physics, from the University of Cincinnati. My research interests include the application of Machine Learning to healthcare optimization problems. My current project involves concussion diagnosis under time constraints.', linkedin: "https://www.linkedin.com/in/himadri-s-pandey/", awards: ['Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2026)', 'First Prize, INFORMS Minority Issues Forum Poster Competition (2024)', 'Georgia HIMSS David Cowan Scholarship (2024)', 'ISyE George Family Fellowships (2024)', 'ISyE Philip J. and Delores A. Scott Graduate Student Health and Wellness Award (2024)']
     },
 
     {name: 'Panus Sawetpiyakul', degree: 'PhD in Industrial Engineering, University of Washington (Expected 2030)', bio: 'I am a PhD student in Industrial Engineering at the University of Washington. I received my MS in Operations Research from Georgia Tech in 2025. I received my Bachelor in Engineering major in Information and Communication Engineering from Chulalongkorn University (Bangkok, Thailand) in 2024. My research interest lies in applying OR methodology, including stochastic modeling, simulation, and machine learning, into healthcare systems. I am now working on a personalized type II diabetes screening scheme.', photo: panus, linkedin: 'http://linkedin.com/in/panus-sawetpiyakul-7a6916129'},
@@ -63,10 +46,11 @@ const postDocs = [
 ]
 
 const undergradMS = [
-      
+    {name: 'Ashley Woodworth', degree: 'MS in Industrial & Systems Engineering (2027)'},
+    {name: 'Puhantong (Rae) Rong', degree: 'MS in Applied Mathematics (2027)'},
+    {name: 'Sakina Ahmed', degree: 'BS in Industrial & Systems Engineering (2027)'},
+    {name: 'Faris M Alnowami', degree: 'BS in Industrial & Systems Engineering (2027)'}
 
-
- 
 ]
 
 const alumniPhD = [
@@ -76,6 +60,13 @@ const alumniPhD = [
         bio: 'I am a PhD student in Operations Research at the H. Milton Stewart School of Industrial and Systems Engineering. I received my BE and BA in Engineering Sciences with a concentration in Mechanical Engineering from Dartmouth College. My research interests lie broadly in problems motivated by health modeling and health policy applications. I am especially interested in equitable solutions to medical decision-making problems and interpretable machine learning algorithms in healthcare. Currently, I am working on personalized optimal prenatal care scheduling.', 
         awards: ['ISyE George Family Fellowship (2024)','Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)'], personalSite: "https://sjulee.github.io/", photo: lee,
         currentposition: 'Assistant Professor, Freeman College of Management, Bucknell University'
+    },
+
+    {
+        name: 'Che-Yi Liao', degree: 'PhD in Machine Learning, Georgia Tech (Graduated 2026)', coadvisor: 'Kamran Paynabar',
+        bio: `I am PhD student in ISyE at Georgia Tech, holding my Masters' degree in Industrial and Operations Engineering from the University of Michigan and Bachelors in Shipping and Transportation Management from the National Taiwan Ocean University. My primary research interests lie in Healthcare Analytics and Healthcare OR where I apply Predictive Modeling, Spatial-Temporal Modeling, and Simulation to guide medical decision making. I am currently collaborating with Massachusetts General Hospital on predicting and addressing the ongoing opioid crisis.`,
+        awards: ['Honorable Mention, POMS CHOM Paper Competition (2026)','INFORMS Bonder Scholarship (2024)', 'Thos and Clair Muller Research Fellowship in Health Analytics and Health Systems (2023)', 'Finalist, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2023)','Gold Student Scholarship for INFORMS Workshop on Data Science (2023)','First Prize, Society for Medical Decision-Making Lee B. Lusted Prize for QMTD (2022)', 'ISyE George Family Fellowship (2022-2025)'], photo: liao, personalSite: 'https://cheyiliao.github.io/', currentposition: 'Research Scientist, Meta'
+        
     }
 ]
 
@@ -234,7 +225,7 @@ const ResearchGroup = () => {
                 
                 }
             
-
+            
             <h4 className='page-title'>Current Masters and Undergraduate Students</h4>
                 <hr></hr>
                 {
@@ -287,16 +278,21 @@ const ResearchGroup = () => {
                         
                         {student.currentposition != null && 
                         <p className='mb-0'>Current Position: {student.currentposition}</p>}
-                        <p className='mb-0'> {student.degree}</p>
+                        <p className='mb-0'> {student.degree} {student.coadvisor != null && <pre><i>co-advised with {student.coadvisor} </i> </pre>} </p>
                         { student.awards != null && <ul> 
                             {student.awards.map((award)=>{
                             return (
                                 <li><i className='bi-award h5' />{award}</li>
                             )
-                        })} </ul>}
+                        })} 
                         
-                        {student.personalSite != null && <a target='_blank' rel='noopener noreferrer' href={student.personalSite} className='reg-link'>Personal Website</a>}
+                                                {student.personalSite != null && <a target='_blank' rel='noopener noreferrer' href={student.personalSite} className='reg-link'>Personal Website</a>}
                         {student.linkedin != null && <p><a target='_blank' rel='noopener noreferrer' href={student.linkedin} className='reg-link'>LinkedIn</a></p>}
+                        
+                        
+                        </ul>}
+                        
+
                         
                     </div>
                 </div>
